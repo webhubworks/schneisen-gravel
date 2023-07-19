@@ -1,0 +1,40 @@
+{
+  "tracks": [
+    {
+      "laps": 6,
+      "distance": 39,
+      "date": "2. September '23",
+      "startTime": "11.00 Uhr",
+      "awardCeremonyTime": "14.30 Uhr",
+      "startLocation": "Meyers Hausstelle",
+      "registerLink": "https://www.rad-net.de/rad-net-portal/rad-net-ausschreibungen.htm?url=%2Fmodules.php%3Fname%3DAusschreibung%26ID_Veranstaltung%3D38323%26mode%3Dascr_detail&url_hash=2ekpZcUhFCF3lC-fzXNdg0yjP9lZebqDe9Ar_5ND0k0"
+    },
+    {
+      "laps": 15,
+      "distance": 97,
+      "date": "2. September '23",
+      "startTime": "11.00 Uhr",
+      "awardCeremonyTime": "14.30 Uhr",
+      "startLocation": "Meyers Hausstelle",
+      "registerLink": "https://www.rad-net.de/rad-net-portal/rad-net-ausschreibungen.htm?url=%2Fmodules.php%3Fname%3DAusschreibung%26ID_Veranstaltung%3D38323%26mode%3Dascr_detail&url_hash=2ekpZcUhFCF3lC-fzXNdg0yjP9lZebqDe9Ar_5ND0k0"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Wo startet das Rennen?",
+      "answer": "Start, Ziel und Startnummerausgabe beider Rennen sind in der Meyerhausstellenschneise in der Nähe vom Waldcafé & Biergarten Meyers Hausstelle. (<a href='https://goo.gl/maps/BULKnExPhHuqNCU78' target='_blank'>Link zu Google Maps</a>)"
+    },
+    {
+      "question": "Gibt es einen Zeitplan?",
+      "answer": "Die Startnummerausgabe beginnt ab 10.00 Uhr. Die Wettkampfbesprechung ist 10.50 Uhr. Startschuss ist 11.00 Uhr. Gegen 14.00 Uhr rechnen wir mit dem Zieleinlauf der Sieger. Etwa 14.30 Uhr ist Siegerehrung."
+    },
+    {
+      "question": "Gibt es ein WC?",
+      "answer": "Ja, im Waldcafé & Biergarten Meyers Hausstelle."
+    },
+    {
+      "question": "Bis wann kann ich mich anmelden?",
+      "answer": "Die Anmeldung ist bis spätestens 30.08.2023 möglich. Das Startgeld muss bis zum 30.08.2023 eingegangen sein."
+    }
+  ]
+}

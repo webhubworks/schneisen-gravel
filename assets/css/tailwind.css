@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    height: 100vh;
+}
+
+@font-face {
+    font-family: 'Gobold';
+    font-weight: 700;
+    src: url('/assets/fonts/Gobold Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Gobold';
+    font-weight: 700;
+    font-style: italic;
+    src: url('/assets/fonts/Gobold Bold Italic.otf') format('opentype');
+}
+
+summary::marker {
+    margin-right: 1rem;
+}
+
+details a {
+    @apply text-race-blue underline hover:text-pink-700;
+}
+
+.animated {
+    animation-duration: 2s;
+    animation-fill-mode: both;
+}
+
+.animated.infinite {
+    animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+    from {
+        transform: scale3d(1, 1, 1);
+    }
+
+    50% {
+        transform: scale3d(1.02, 1.02, 1.02);
+    }
+
+    to {
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+.pulse {
+    animation-name: pulse;
+    animation-timing-function: ease-in-out;
+}
