@@ -9,14 +9,14 @@ body {
 @font-face {
     font-family: 'Gobold';
     font-weight: 700;
-    src: url('/assets/fonts/Gobold Bold.otf') format('opentype');
+    src: url('/assets/fonts/GoboldBold.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'Gobold';
     font-weight: 700;
     font-style: italic;
-    src: url('/assets/fonts/Gobold Bold Italic.otf') format('opentype');
+    src: url('/assets/fonts/GoboldBoldItalic.otf') format('opentype');
 }
 
 summary::marker {

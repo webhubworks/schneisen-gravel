@@ -176,19 +176,19 @@
           class="md:hidden"
           sizes="(max-width: 960px) 100vw, 960px"
           srcset="
-/assets/viktor-bystrov-ztryiOSM0cg-unsplash_3_u06sgl_c_scale,w_190.png 190w,
-/assets/viktor-bystrov-ztryiOSM0cg-unsplash_3_u06sgl_c_scale,w_662.png 662w,
-/assets/viktor-bystrov-ztryiOSM0cg-unsplash_3_u06sgl_c_scale,w_960.png 960w"
-          src="/assets/viktor-bystrov-ztryiOSM0cg-unsplash_3_u06sgl_c_scale,w_960.png"
+/assets/viktor-bystrov-ztryiOSM0cg-unsplash_3_u06sgl_c_scalew_190.png 190w,
+/assets/viktor-bystrov-ztryiOSM0cg-unsplash_3_u06sgl_c_scalew_662.png 662w,
+/assets/viktor-bystrov-ztryiOSM0cg-unsplash_3_u06sgl_c_scalew_960.png 960w"
+          src="/assets/viktor-bystrov-ztryiOSM0cg-unsplash_3_u06sgl_c_scalew_960.png"
           alt="Gravel-Bike-Fahrer auf Sandweg im Wald">
       <img
           class="hidden md:block"
           sizes="(max-width: 2600px) 100vw, 2600px"
           srcset="
-/assets/viktor-bystrov-ztryiOSM0cg-unsplash_7_rnkerl_c_scale,w_960.png 960w,
-/assets/viktor-bystrov-ztryiOSM0cg-unsplash_7_rnkerl_c_scale,w_1910.png 1910w,
-/assets/viktor-bystrov-ztryiOSM0cg-unsplash_7_rnkerl_c_scale,w_2600.png 2600w"
-          src="/assets/viktor-bystrov-ztryiOSM0cg-unsplash_7_rnkerl_c_scale,w_2600.png"
+/assets/viktor-bystrov-ztryiOSM0cg-unsplash_7_rnkerl_c_scalew_960.png 960w,
+/assets/viktor-bystrov-ztryiOSM0cg-unsplash_7_rnkerl_c_scalew_1910.png 1910w,
+/assets/viktor-bystrov-ztryiOSM0cg-unsplash_7_rnkerl_c_scalew_2600.png 2600w"
+          src="/assets/viktor-bystrov-ztryiOSM0cg-unsplash_7_rnkerl_c_scalew_2600.png"
           alt="Gravel-Bike-Fahrer auf Sandweg im Wald">
 
     </section>
