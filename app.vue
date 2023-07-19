@@ -31,7 +31,7 @@
                       :checked="index === 0"
                       :id="`track-${index}`"
                       name="race" type="radio">
-                  <label for="track-1"><span>{{ track.distance }}KM</span><span
+                  <label :for="`track-${index}`"><span>{{ track.distance }}KM</span><span
                       class="ml-2 sm:ml-6 text-white">{{ track.laps }} Runden</span></label>
                 </div>
                 <input type="submit" value="Anmelden"
@@ -290,27 +290,27 @@ useHead({
     {
       rel: 'apple-touch-icon',
       sizes: '180x180',
-      href: '/public/apple-touch-icon.png',
+      href: '/apple-touch-icon.png',
     }, {
       rel: 'icon',
       type: 'image/png',
       sizes: '32x32',
-      href: '/public/favicon-32x32.png',
+      href: '/favicon-32x32.png',
     }, {
       rel: 'icon',
       type: 'image/png',
       sizes: '16x16',
-      href: '/public/favicon-16x16.png',
+      href: '/favicon-16x16.png',
     }, {
       rel: 'manifest',
-      href: '/public/site.webmanifest',
+      href: '/site.webmanifest',
     }, {
       rel: 'mask-icon',
-      href: '/public/safari-pinned-tab.svg',
+      href: '/safari-pinned-tab.svg',
       color: '#5bbad5',
     }, {
       rel: 'shortcut icon',
-      href: '/public/favicon.ico',
+      href: '/favicon.ico',
     }
   ],
   meta: [
@@ -322,7 +322,7 @@ useHead({
       content: '#36372c',
     }, {
       name: 'msapplication-config',
-      content: '/public/browserconfig.xml',
+      content: '/browserconfig.xml',
     }, {
       name: 'msapplication-TileColor',
       content: '#2b5797',
