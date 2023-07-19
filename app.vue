@@ -28,7 +28,7 @@
                   <input
                       @change="lapCountSelected = track.laps"
                       class="h-10 w-10 md:h-12 md:w-12 md:mt-1 mr-4 border-race-gray border-4 text-race-gray focus:ring-pink-500 focus:ring-4 cursor-pointer"
-                      checked
+                      :checked="index === 0"
                       :id="`track-${index}`"
                       name="race" type="radio">
                   <label for="track-1"><span>{{ track.distance }}KM</span><span
@@ -286,10 +286,48 @@ const lapCountSelected = ref(6);
 
 useHead({
   title: 'Schneisen Gravel 2023',
-  meta: [{
-    name: 'description',
-    content: 'Offenes Rennen für jeden auf einer schnellen 6,5 Km-Runde in der Rostocker Heide',
-  }]
+  link: [
+    {
+      rel: 'apple-touch-icon',
+      sizes: '180x180',
+      href: '/public/apple-touch-icon.png',
+    }, {
+      rel: 'icon',
+      type: 'image/png',
+      sizes: '32x32',
+      href: '/public/favicon-32x32.png',
+    }, {
+      rel: 'icon',
+      type: 'image/png',
+      sizes: '16x16',
+      href: '/public/favicon-16x16.png',
+    }, {
+      rel: 'manifest',
+      href: '/public/site.webmanifest',
+    }, {
+      rel: 'mask-icon',
+      href: '/public/safari-pinned-tab.svg',
+      color: '#5bbad5',
+    }, {
+      rel: 'shortcut icon',
+      href: '/public/favicon.ico',
+    }
+  ],
+  meta: [
+    {
+      name: 'description',
+      content: 'Offenes Rennen für jeden auf einer schnellen 6,5 Km-Runde in der Rostocker Heide',
+    }, {
+      name: 'theme-color',
+      content: '#36372c',
+    }, {
+      name: 'msapplication-config',
+      content: '/public/browserconfig.xml',
+    }, {
+      name: 'msapplication-TileColor',
+      content: '#2b5797',
+    }
+  ]
 })
 
 onMounted(() => {
