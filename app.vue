@@ -284,23 +284,27 @@ const svg = '<svg width="936" height="940" viewBox="0 0 936 940" fill="none" xml
 
 const lapCountSelected = ref(6);
 
+useHead({
+  title: 'Schneisen Gravel 2023',
+  meta: [{
+    name: 'description',
+    content: 'Offenes Rennen für jeden auf einer schnellen 6,5 Km-Runde in der Rostocker Heide',
+  }]
+})
+
 onMounted(() => {
   // Get canvas and context
-  var c = document.getElementById("header-canvas");
-  var ctx = c.getContext("2d");
+  const c = document.getElementById("header-canvas");
+  const ctx = c.getContext("2d");
   // Keep track of time
   let t = 0;
   let speed = 1 / 10e6;
   let svgImg = null;
 
-// Resize canvas to fit window and set up event listener for future window resizes
   function resizeCanvas() {
     c.width = document.body.offsetWidth;
     c.height = document.body.offsetHeight;
     drawGradient();
-    //drawSvg(svg, 0.5,0.01, 140)
-
-    //addNoise();
   }
 
   function drawSvg(input) {
@@ -326,7 +330,7 @@ onMounted(() => {
   }
 
   window.addEventListener('resize', resizeCanvas);
-  resizeCanvas();  // Initial resize
+  resizeCanvas();
 
   function loop() {
     drawGradient();
@@ -339,11 +343,11 @@ onMounted(() => {
 
   function addNoise() {
     // Add noise
-    var imageData = ctx.getImageData(0, 0, c.width, c.height);
-    var data = imageData.data;
+    let imageData = ctx.getImageData(0, 0, c.width, c.height);
+    let data = imageData.data;
 
-    for (var i = 0; i < data.length; i += 4) {
-      var noise = Math.random() * 40 - 5 + t;
+    for (let i = 0; i < data.length; i += 4) {
+      let noise = Math.random() * 40 - 5 + t;
 
       data[i] = data[i] + noise;     // red
       data[i + 1] = data[i + 1] + noise; // green
@@ -353,13 +357,12 @@ onMounted(() => {
     ctx.putImageData(imageData, 0, 0);
   }
 
-// Function to draw the gradient and add noise
   function drawGradient() {
     // Clear background
     ctx.clearRect(0, 0, c.width, c.height);
 
     // Create gradient
-    var grd = ctx.createLinearGradient(0, 0, c.width, c.height);
+    let grd = ctx.createLinearGradient(0, 0, c.width, c.height);
     grd.addColorStop(0, "#dbd897");
     grd.addColorStop(1, "#55a1d7");
 
