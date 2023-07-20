@@ -19,21 +19,29 @@
       "registerLink": "https://meldungen.rad-net.de/modules.php?name=Ausschreibung&ID_Veranstaltung=38323&mode=ascr_detail&view=anmeld"
     }
   ],
-  "gallery": [
+  "media": [
+    {
+      "type": "youtube",
+      "videoId": "Kes_ry3_Gjg"
+    },
     {
       "path": "/gallery/1.jpg",
+      "type": "image",
       "alt": "Gruppenfoto mit Bike-Market-Tor"
     },
     {
       "path": "/gallery/2.jpg",
+      "type": "image",
       "alt": "Foto der Meyerhausstellenschneise in der Rostock Heide"
     },
     {
       "path": "/gallery/3.jpg",
+      "type": "image",
       "alt": "Schneisen Gravel Medaillen"
     },
     {
       "path": "/gallery/4.jpg",
+      "type": "image",
       "alt": "Gravel-Biker auf Waldweg"
     }
   ],
