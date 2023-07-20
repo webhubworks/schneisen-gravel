@@ -334,7 +334,27 @@ useHead({
     }, {
       name: 'msapplication-TileColor',
       content: '#2b5797',
-    }
+    },
+    {
+      property: 'og:url',
+      content: 'https://schneisen-gravel.de',
+    },
+    {
+      property: 'og:type',
+      content: 'website',
+    },
+    {
+      property: 'og:title',
+      content: 'Schneisen Gravel 2023',
+    },
+    {
+      property: 'og:description',
+      content: 'Offenes Rennen für jeden auf einer schnellen 6,5 Km-Runde in der Rostocker Heide',
+    },
+    {
+      property: 'og:image',
+      content: 'https://schneisen-gravel.de/social.jpeg',
+    },
   ]
 })
 
