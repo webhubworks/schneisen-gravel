@@ -1,16 +1,16 @@
 <template>
-  <div class="bg-blue-200 min-h-screen w-full pt-4 pb-10">
+  <div class="min-h-screen w-full pt-4 pb-10">
     <div class="container mx-auto px-4 max-w-5xl">
 
       <header class="">
-        <h1 class="font-display text-left italic uppercase text-6xl md:text-7xl leading-tight md:leading-[7rem]">
+        <h1 class="font-display text-left  uppercase text-6xl md:text-7xl leading-tight md:leading-[7rem]">
           datenschutz
         </h1>
       </header>
 
       <main class="flex flex-col gap-8 mt-10">
         <section>
-          <h2 class="font-display text-left italic text-2xl md:text-3xl">
+          <h2 class="font-display text-left  text-2xl md:text-3xl">
             Name und Kontakt des Verantwortlichen gemäß Artikel 4 Abs. 7 DSGVO
           </h2>
           <p class="text-xl font-sans mt-4 leading-normal">
@@ -24,7 +24,7 @@
         </section>
 
         <section>
-          <h2 class="font-display text-left italic text-2xl md:text-3xl">
+          <h2 class="font-display text-left  text-2xl md:text-3xl">
             Sicherheit und Schutz Ihrer personenbezogenen Daten
           </h2>
           <p class="text-xl font-sans mt-4 leading-normal">
@@ -36,84 +36,84 @@
         </section>
 
         <section>
-          <h2 class="font-display text-left italic text-2xl md:text-3xl">
+          <h2 class="font-display text-left  text-2xl md:text-3xl">
             Begriffsbestimmungen
           </h2>
           <p class="text-xl font-sans mt-4 leading-normal">
             Der Gesetzgeber fordert, dass personenbezogene Daten auf rechtmäßige Weise, nach Treu und Glauben und in einer für die betroffene Person nachvollziehbaren Weise verarbeitet werden („Rechtmäßigkeit, Verarbeitung nach Treu und Glauben, Transparenz“). Um dies zu gewährleisten, informieren wir Sie über die einzelnen gesetzlichen Begriffsbestimmungen, die auch in dieser Datenschutzerklärung verwendet werden:
           </p>
 
-          <h3 class="font-display text-left italic text-xl md:text-2xl mt-8">
+          <h3 class="font-display text-left  text-xl md:text-2xl mt-8">
             Personenbezogene Daten
           </h3>
           <p class="text-xl font-sans mt-4 leading-normal">
             „Personenbezogene Daten“ sind alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person (im Folgenden „betroffene Person“) beziehen; als identifizierbar wird eine natürliche Person angesehen, die direkt oder indirekt, insbesondere mittels Zuordnung zu einer Kennung wie einem Namen, zu einer Kennnummer, zu Standortdaten, zu einer Online-Kennung oder zu einem oder mehreren besonderen Merkmalen identifiziert werden kann, die Ausdruck der physischen, physiologischen, genetischen, psychischen, wirtschaftlichen, kulturellen oder sozialen Identität dieser natürlichen Person sind.
           </p>
 
-          <h3 class="font-display text-left italic text-xl md:text-2xl mt-8">
+          <h3 class="font-display text-left  text-xl md:text-2xl mt-8">
             Verarbeitung
           </h3>
           <p class="text-xl font-sans mt-4 leading-normal">
             „Verarbeitung“ ist jeder, mit oder ohne Hilfe automatisierter Verfahren, ausgeführter Vorgang oder jede solche Vorgangsreihe im Zusammenhang mit personenbezogenen Daten wie das Erheben, das Erfassen, die Organisation, das Ordnen, die Speicherung, die Anpassung oder Veränderung, das Auslesen, das Abfragen, die Verwendung, die Offenlegung durch Übermittlung, Verbreitung oder eine andere Form der Bereitstellung, den Abgleich oder die Verknüpfung, die Einschränkung, das Löschen oder die Vernichtung.
           </p>
 
-          <h3 class="font-display text-left italic text-xl md:text-2xl mt-8">
+          <h3 class="font-display text-left  text-xl md:text-2xl mt-8">
             Einschränkung der Verarbeitung
           </h3>
           <p class="text-xl font-sans mt-4 leading-normal">
             „Einschränkung der Verarbeitung“ ist die Markierung gespeicherter personenbezogener Daten mit dem Ziel, ihre künftige Verarbeitung einzuschränken.
           </p>
 
-          <h3 class="font-display text-left italic text-xl md:text-2xl mt-8">
+          <h3 class="font-display text-left  text-xl md:text-2xl mt-8">
             Profiling
           </h3>
           <p class="text-xl font-sans mt-4 leading-normal">
             „Profiling“ ist jede Art der automatisierten Verarbeitung personenbezogener Daten, die darin besteht, dass diese personenbezogenen Daten verwendet werden, um bestimmte persönliche Aspekte, die sich auf eine natürliche Person beziehen, zu bewerten, insbesondere um Aspekte bezüglich Arbeitsleistung, wirtschaftliche Lage, Gesundheit, persönliche Vorlieben, Interessen, Zuverlässigkeit, Verhalten, Aufenthaltsort oder Ortswechsel dieser natürlichen Person zu analysieren oder vorherzusagen.
           </p>
 
-          <h3 class="font-display text-left italic text-xl md:text-2xl mt-8">
+          <h3 class="font-display text-left  text-xl md:text-2xl mt-8">
             Pseudonymisierung
           </h3>
           <p class="text-xl font-sans mt-4 leading-normal">
             „Pseudonymisierung“ ist die Verarbeitung personenbezogener Daten in einer Weise, dass die personenbezogenen Daten ohne Hinzuziehung zusätzlicher Informationen nicht mehr einer spezifischen betroffenen Person zugeordnet werden können, sofern diese zusätzlichen Informationen gesondert aufbewahrt werden und technischen und organisatorischen Maßnahmen unterliegen, die gewährleisten, dass die personenbezogenen Daten nicht einer identifizierten oder identifizierbaren natürlichen Person zugewiesen werden können.
           </p>
 
-          <h3 class="font-display text-left italic text-xl md:text-2xl mt-8">
+          <h3 class="font-display text-left  text-xl md:text-2xl mt-8">
             Dateisystem
           </h3>
           <p class="text-xl font-sans mt-4 leading-normal">
             „Dateisystem“ ist jede strukturierte Sammlung personenbezogener Daten, die nach bestimmten Kriterien zugänglich sind, unabhängig davon, ob diese Sammlung zentral, dezentral oder nach funktionalen oder geografischen Gesichtspunkten geordnet geführt wird.
           </p>
 
-          <h3 class="font-display text-left italic text-xl md:text-2xl mt-8">
+          <h3 class="font-display text-left  text-xl md:text-2xl mt-8">
             Verantwortlicher
           </h3>
           <p class="text-xl font-sans mt-4 leading-normal">
             „Verantwortlicher“ ist eine natürliche oder juristische Person, Behörde, Einrichtung oder andere Stelle, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten entscheidet; sind die Zwecke und Mittel dieser Verarbeitung durch das Unionsrecht oder das Recht der Mitgliedstaaten vorgegeben, so können der Verantwortliche beziehungsweise die bestimmten Kriterien seiner Benennung nach dem Unionsrecht oder dem Recht der Mitgliedstaaten vorgesehen werden.
           </p>
 
-          <h3 class="font-display text-left italic text-xl md:text-2xl mt-8">
+          <h3 class="font-display text-left  text-xl md:text-2xl mt-8">
             Auftragsverarbeiter
           </h3>
           <p class="text-xl font-sans mt-4 leading-normal">
             „Auftragsverarbeiter“ ist eine natürliche oder juristische Person, Behörde, Einrichtung oder andere Stelle, die personenbezogene Daten im Auftrag des Verantwortlichen verarbeitet.
           </p>
 
-          <h3 class="font-display text-left italic text-xl md:text-2xl mt-8">
+          <h3 class="font-display text-left  text-xl md:text-2xl mt-8">
             Empfänger
           </h3>
           <p class="text-xl font-sans mt-4 leading-normal">
             „Empfänger“ ist eine natürliche oder juristische Person, Behörde, Einrichtung oder andere Stelle, denen personenbezogene Daten offengelegt werden, unabhängig davon, ob es sich bei ihr um einen Dritten handelt oder nicht. Behörden, die im Rahmen eines bestimmten Untersuchungsauftrags nach dem Unionsrecht oder dem Recht der Mitgliedstaaten möglicherweise personenbezogene Daten erhalten, gelten jedoch nicht als Empfänger; die Verarbeitung dieser Daten durch die genannten Behörden erfolgt im Einklang mit den geltenden Datenschutzvorschriften gemäß den Zwecken der Verarbeitung.
           </p>
 
-          <h3 class="font-display text-left italic text-xl md:text-2xl mt-8">
+          <h3 class="font-display text-left  text-xl md:text-2xl mt-8">
             Dritter
           </h3>
           <p class="text-xl font-sans mt-4 leading-normal">
             „Dritter“ ist eine natürliche oder juristische Person, Behörde, Einrichtung oder andere Stelle, außer der betroffenen Person, dem Verantwortlichen, dem Auftragsverarbeiter und den Personen, die unter der unmittelbaren Verantwortung des Verantwortlichen oder des Auftragsverarbeiters befugt sind, die personenbezogenen Daten zu verarbeiten.
           </p>
 
-          <h3 class="font-display text-left italic text-xl md:text-2xl mt-8">
+          <h3 class="font-display text-left  text-xl md:text-2xl mt-8">
             Einwilligung
           </h3>
           <p class="text-xl font-sans mt-4 leading-normal">
@@ -122,7 +122,7 @@
         </section>
 
         <section>
-          <h2 class="font-display text-left italic text-2xl md:text-3xl">
+          <h2 class="font-display text-left  text-2xl md:text-3xl">
             Rechtmäßigkeit der Verarbeitung
           </h2>
           <p class="text-xl font-sans mt-4 leading-normal">
@@ -140,7 +140,7 @@
         </section>
 
         <section>
-          <h2 class="font-display text-left italic text-2xl md:text-3xl">
+          <h2 class="font-display text-left  text-2xl md:text-3xl">
             Information über die Erhebung personenbezogener Daten
           </h2>
           <p class="text-xl font-sans mt-4 leading-normal">
@@ -152,7 +152,7 @@
         </section>
 
         <section>
-          <h2 class="font-display text-left italic text-2xl md:text-3xl">
+          <h2 class="font-display text-left  text-2xl md:text-3xl">
             Erhebung personenbezogener Daten bei Besuch unserer Website
           </h2>
           <p class="text-xl font-sans mt-4 leading-normal">
@@ -170,7 +170,7 @@
             <li>Sprache und Version der Browsersoftware.</li>
           </ul>
 
-          <h3 class="font-display text-left italic text-xl md:text-2xl mt-8">
+          <h3 class="font-display text-left  text-xl md:text-2xl mt-8">
             Einsatz von Cookies
           </h3>
           <p class="text-xl font-sans mt-4 leading-normal">
@@ -193,7 +193,7 @@
         </section>
 
         <section>
-          <h2 class="font-display text-left italic text-2xl md:text-3xl">
+          <h2 class="font-display text-left  text-2xl md:text-3xl">
             Weitere Funktionen und Angebote unserer Website
           </h2>
           <p class="text-xl font-sans mt-4 leading-normal">
@@ -211,7 +211,7 @@
         </section>
 
         <section>
-          <h2 class="font-display text-left italic text-2xl md:text-3xl">
+          <h2 class="font-display text-left  text-2xl md:text-3xl">
             Kinder
           </h2>
           <p class="text-xl font-sans mt-4 leading-normal">
@@ -220,7 +220,7 @@
         </section>
 
         <section>
-          <h2 class="font-display text-left italic text-2xl md:text-3xl">
+          <h2 class="font-display text-left  text-2xl md:text-3xl">
             Rechte der betroffenen Person
           </h2>
 
@@ -230,23 +230,23 @@
         </section>
 
         <section>
-          <h2 class="font-display text-left italic text-2xl md:text-3xl">
+          <h2 class="font-display text-left  text-2xl md:text-3xl">
             Kinder
           </h2>
-          <h3 class="font-display text-left italic text-xl md:text-2xl mt-8">
+          <h3 class="font-display text-left  text-xl md:text-2xl mt-8">
             Widerruf der Einwilligung
           </h3>
           <p class="text-xl font-sans mt-4 leading-normal">
             Sofern die Verarbeitung der personenbezogenen Daten auf einer erteilten Einwilligung beruht, haben Sie jederzeit das Recht, die Einwilligung zu widerrufen. Durch den Widerruf der Einwilligung wird die Rechtmäßigkeit der aufgrund der Einwilligung bis zum Widerruf erfolgten Verarbeitung nicht berührt. <br><br>
             Für die Ausübung des Widerrufsrechts können Sie sich jederzeit an uns wenden.
           </p>
-          <h3 class="font-display text-left italic text-xl md:text-2xl mt-8">
+          <h3 class="font-display text-left  text-xl md:text-2xl mt-8">
             Recht auf Bestätigung
           </h3>
           <p class="text-xl font-sans mt-4 leading-normal">
             Sie haben das Recht, von dem Verantwortlichen eine Bestätigung darüber zu verlangen, ob wir sie betreffende personenbezogene Daten verarbeiten. Die Bestätigung können Sie jederzeit unter den oben genannten Kontaktdaten verlangen.
           </p>
-          <h3 class="font-display text-left italic text-xl md:text-2xl mt-8">
+          <h3 class="font-display text-left  text-xl md:text-2xl mt-8">
             Auskunftsrecht
           </h3>
           <p class="text-xl font-sans mt-4 leading-normal">
@@ -268,14 +268,14 @@
             Werden personenbezogene Daten an ein Drittland oder an eine internationale Organisation übermittelt, so haben Sie das Recht, über die geeigneten Garantien gemäß Artikel 46 DSGVO im Zusammenhang mit der Übermittlung unterrichtet zu werden. Wir stellen eine Kopie der personenbezogenen Daten, die Gegenstand der Verarbeitung sind, zur Verfügung. Für alle weiteren Kopien, die Sie Person beantragen, können wir ein angemessenes Entgelt auf der Grundlage der Verwaltungskosten verlangen. Stellen Sie den Antrag elektronisch, so sind die Informationen in einem gängigen elektronischen Format zur Verfügung zu stellen, sofern er nichts anderes angibt. Das Recht auf Erhalt einer Kopie gemäß Absatz 3 darf die Rechte und Freiheiten anderer Personen nicht beeinträchtigen.
           </p>
 
-          <h3 class="font-display text-left italic text-xl md:text-2xl mt-8">
+          <h3 class="font-display text-left  text-xl md:text-2xl mt-8">
             Recht auf Berichtigung
           </h3>
           <p class="text-xl font-sans mt-4 leading-normal">
             Sie haben das Recht, von uns unverzüglich die Berichtigung Sie betreffender unrichtiger personenbezogener Daten zu verlangen. Unter Berücksichtigung der Zwecke der Verarbeitung haben Sie das Recht, die Vervollständigung unvollständiger personenbezogener Daten – auch mittels einer ergänzenden Erklärung – zu verlangen.
           </p>
 
-          <h3 class="font-display text-left italic text-xl md:text-2xl mt-8">
+          <h3 class="font-display text-left  text-xl md:text-2xl mt-8">
             Recht auf Löschung („Recht auf vergessen werden“)
           </h3>
           <p class="text-xl font-sans mt-4 leading-normal">
@@ -302,7 +302,7 @@
             <li>zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen.</li>
           </ul>
 
-          <h3 class="font-display text-left italic text-xl md:text-2xl mt-8">
+          <h3 class="font-display text-left  text-xl md:text-2xl mt-8">
             Recht auf Einschränkung der Verarbeitung
           </h3>
           <p class="text-xl font-sans mt-4 leading-normal">
@@ -320,7 +320,7 @@
             Um das Recht auf Einschränkung der Verarbeitung geltend zu machen, kann sich die betroffene Person jederzeit an uns unter den oben angegebenen Kontaktdaten wenden.
           </p>
 
-          <h3 class="font-display text-left italic text-xl md:text-2xl mt-8">
+          <h3 class="font-display text-left  text-xl md:text-2xl mt-8">
             Recht auf Datenübertragbarkeit
           </h3>
           <p class="text-xl font-sans mt-4 leading-normal">
@@ -334,7 +334,7 @@
             Bei der Ausübung des Rechts auf Datenübertragbarkeit gemäß Absatz 1 haben Sie das Recht, zu erwirken, dass die personenbezogenen Daten direkt von einem Verantwortlichen zu einem anderen Verantwortlichen übermittelt werden, soweit dies technisch machbar ist. Die Ausübung des Rechts auf Datenübertragbarkeit lässt das Recht auf Löschung („Recht auf Vergessen werden“) unberührt. Dieses Recht gilt nicht für eine Verarbeitung, die für die Wahrnehmung einer Aufgabe erforderlich ist, die im öffentlichen Interesse liegt oder in Ausübung öffentlicher Gewalt erfolgt, die dem Verantwortlichen übertragen wurde.
           </p>
 
-          <h3 class="font-display text-left italic text-xl md:text-2xl mt-8">
+          <h3 class="font-display text-left  text-xl md:text-2xl mt-8">
             Widerspruchsrecht
           </h3>
           <p class="text-xl font-sans mt-4 leading-normal">
@@ -349,7 +349,7 @@
             Das Widerspruchsrecht können Sie jederzeit ausüben, indem Sie sich an den jeweiligen Verantwortlichen wenden. <br><br>
           </p>
 
-          <h3 class="font-display text-left italic text-xl md:text-2xl mt-8">
+          <h3 class="font-display text-left  text-xl md:text-2xl mt-8">
             Automatisierte Entscheidungen im Einzelfall einschließlich Profiling
           </h3>
           <p class="text-xl font-sans mt-4 leading-normal">
@@ -365,14 +365,14 @@
             Dieses Recht kann die betroffene Person jederzeit ausüben, indem sie sich an den jeweiligen Verantwortlichen wendet.
           </p>
 
-          <h3 class="font-display text-left italic text-xl md:text-2xl mt-8">
+          <h3 class="font-display text-left  text-xl md:text-2xl mt-8">
             Recht auf Beschwerde bei einer Aufsichtsbehörde
           </h3>
           <p class="text-xl font-sans mt-4 leading-normal">
             Sie haben zudem, unbeschadet eines anderweitigen verwaltungsrechtlichen oder gerichtlichen Rechtsbehelfs, das Recht auf Beschwerde bei einer Aufsichtsbehörde, insbesondere in dem Mitgliedstaat ihres Aufenthaltsorts, ihres Arbeitsplatzes oder des Orts des mutmaßlichen Verstoßes, wenn die betroffene Person der Ansicht ist, dass die Verarbeitung der sie betreffenden personenbezogenen Daten gegen diese Verordnung verstößt.
           </p>
 
-          <h3 class="font-display text-left italic text-xl md:text-2xl mt-8">
+          <h3 class="font-display text-left  text-xl md:text-2xl mt-8">
             Recht auf wirksamen gerichtlichen Rechtsbehelf
           </h3>
           <p class="text-xl font-sans mt-4 leading-normal">

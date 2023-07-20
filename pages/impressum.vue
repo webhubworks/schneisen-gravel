@@ -1,20 +1,20 @@
 <template>
-  <div class="bg-blue-200 min-h-screen w-full pt-4 pb-10">
+  <div class="min-h-screen w-full pt-4 pb-10">
     <div class="container mx-auto px-4 max-w-5xl">
 
       <header class="">
-        <h1 class="font-display text-left italic uppercase text-6xl md:text-7xl leading-tight md:leading-[7rem]">
+        <h1 class="font-display text-left  uppercase text-6xl md:text-7xl leading-tight md:leading-[7rem]">
           impressum
         </h1>
       </header>
 
       <main class="flex flex-col gap-8 mt-10">
         <section>
-          <h2 class="font-display text-left italic text-2xl md:text-3xl">
+          <h2 class="font-display text-left  text-2xl md:text-3xl">
             Angaben gemäß § 5 TMG
           </h2>
 
-          <h3 class="font-display text-left italic text-xl md:text-2xl mt-8">
+          <h3 class="font-display text-left  text-xl md:text-2xl mt-8">
             Büroanschrift
           </h3>
           <p class="text-xl font-sans mt-4 leading-normal">
@@ -24,7 +24,7 @@
             Tel: <a href="tel:"></a>
           </p>
 
-          <h3 class="font-display text-left italic text-xl md:text-2xl mt-8">
+          <h3 class="font-display text-left  text-xl md:text-2xl mt-8">
             Firmenanschrift
           </h3>
           <p class="text-xl font-sans mt-4 leading-normal">
@@ -52,7 +52,7 @@
         </section>
 
         <section>
-          <h2 class="font-display text-left italic text-2xl md:text-3xl mt-6">
+          <h2 class="font-display text-left  text-2xl md:text-3xl mt-6">
             Online-Streitbeilegung
           </h2>
           <p class="text-xl font-sans mt-4 leading-normal">
@@ -61,7 +61,7 @@
         </section>
 
         <section>
-          <h2 class="font-display text-left italic text-2xl md:text-3xl mt-6">
+          <h2 class="font-display text-left  text-2xl md:text-3xl mt-6">
             Außergerichtliche Streitbeilegung
           </h2>
           <p class="text-xl font-sans mt-4 leading-normal">
