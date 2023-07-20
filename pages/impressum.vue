@@ -18,37 +18,36 @@
             Büroanschrift
           </h3>
           <p class="text-xl font-sans mt-4 leading-normal">
-            <strong>webhub GmbH</strong><br>
-            Neuer Markt 13 (Eingang Kröpeliner Str. 3)<br>
-            18055 Rostock<br>
-            Tel: <a href="tel:038136768606">0381-36768606</a>
+            <strong>Firmenname</strong><br>
+            Straße Hausnummer<br>
+            PLZ Ort<br>
+            Tel: <a href="tel:"></a>
           </p>
 
           <h3 class="font-display text-left italic text-xl md:text-2xl mt-8">
             Firmenanschrift
           </h3>
           <p class="text-xl font-sans mt-4 leading-normal">
-            <strong>webhub GmbH</strong><br>
-            Hasselbruch 28<br>
-            18059 Niendorf
+            <strong>Firmenname</strong><br>
+            Straße Hausnummer<br>
+            PLZ Ort
           </p>
 
           <p class="text-xl font-sans mt-4 leading-normal">
             <strong>Geschäftsführer</strong><br>
-            Johannes Ahrndt – ahrndt@webhub.de<br>
-            Marten Brosch – brosch@webhub.de
+            Vorname Nachname – E-Mail-Adresse
           </p>
 
           <p class="text-xl font-sans mt-4 leading-normal">
-            <strong>Amtsgericht Rostock,</strong> HRB 14629
+            <strong>Amtsgericht Rostock,</strong>
           </p>
 
           <p class="text-xl font-sans mt-4 leading-normal">
-            <strong>USt.-IdNr.:</strong> DE325666235
+            <strong>USt.-IdNr.:</strong>
           </p>
 
           <p class="text-xl font-sans mt-4 leading-normal">
-            <strong>Inhaltlich verantwortlich gemäß § 18. MStV:</strong> Johannes Ahrndt und Marten Brosch
+            <strong>Inhaltlich verantwortlich gemäß § 18. MStV:</strong>
           </p>
         </section>
 

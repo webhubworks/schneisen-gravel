@@ -14,13 +14,12 @@
             Name und Kontakt des Verantwortlichen gemäß Artikel 4 Abs. 7 DSGVO
           </h2>
           <p class="text-xl font-sans mt-4 leading-normal">
-            Johannes Ahrndt – ahrndt@webhub.de<br>
-            Marten Brosch – brosch@webhub.de
+            Vorname Nachname – E-Mail-Adresse
           </p>
           <p class="text-xl font-sans mt-4 leading-normal">
-            <strong>webhub GmbH</strong><br>
-            Hasselbruch 28<br>
-            18059 Niendorf
+            <strong>Firmenname</strong><br>
+            Straße Hausnummer<br>
+            PLZ Ort
           </p>
         </section>
 
