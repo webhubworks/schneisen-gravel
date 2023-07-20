@@ -13,7 +13,7 @@
 
     <section class="bg-race-green py-16">
       <div class="container mx-auto px-4">
-        <h2 class="font-display text-race-gray antialiased text-5xl md:text-7xl leading-tight mb-4 md:mb-16">Offenes
+        <h2 class="font-display text-race-gray antialiased text-5xl md:text-7xl leading-tight md:leading-[5rem] mb-4 md:mb-16">Offenes
           Rennen für
           jeden <br class="hidden xl:block">auf
           einer schnellen 6,5 Km-Runde <br class="hidden xl:block">in der Rostocker Heide</h2>
@@ -22,7 +22,7 @@
           <ContentQuery path="races" find="one" :where="{title: '2023'}">
             <template #default="{ data }">
               <form method="GET"
-                    :action="data.tracks[0].registerLink"
+                    @submit.prevent="goTo(data.tracks[0].registerLink)"
                     class="w-full lg:w-1/2 font-display text-race-gray text-4xl sm:text-5xl xl:text-6xl italic pt-12">
                 <div class="flex mb-12" v-for="(track, index) in data.tracks">
                   <input
@@ -146,7 +146,7 @@
       <ContentQuery path="races" find="one" :where="{title: '2023'}">
         <template #default="{ data }">
           <div
-              class="container mx-auto grid grid-cols-1 gap-16 sm:grid-cols-2 xl:grid-cols-4 sm:gap-8 justify-center space-x-8 font-display py-12">
+              class="container mx-auto grid grid-cols-1 gap-16 sm:grid-cols-2 xl:grid-cols-4 sm:gap-8 justify-center font-display py-12">
             <dl class="text-center">
               <dt class="font-bold mb-4 italic text-2xl">Datum</dt>
               <dd class="text-3xl md:text-4xl whitespace-nowrap">
@@ -158,7 +158,7 @@
               <dd class="text-3xl md:text-4xl whitespace-nowrap">{{ data.tracks[0].startLocation }}</dd>
             </dl>
             <dl class="text-center">
-              <dt class="font-bold mb-4 italic text-2xl">Beginn</dt>
+              <dt class="font-bold mb-4 italic text-2xl">Startschuss</dt>
               <dd class="text-3xl md:text-4xl whitespace-nowrap">{{ data.tracks[0].startTime }}</dd>
             </dl>
             <dl class="text-center">
@@ -176,32 +176,32 @@
           class="md:hidden"
           sizes="(max-width: 960px) 100vw, 960px"
           srcset="
-/assets/viktor-bystrov-ztryiOSM0cg-unsplash_3_u06sgl_c_scalew_190.png 190w,
-/assets/viktor-bystrov-ztryiOSM0cg-unsplash_3_u06sgl_c_scalew_662.png 662w,
-/assets/viktor-bystrov-ztryiOSM0cg-unsplash_3_u06sgl_c_scalew_960.png 960w"
-          src="/assets/viktor-bystrov-ztryiOSM0cg-unsplash_3_u06sgl_c_scalew_960.png"
+/assets/viktor-bystrov-ztryiOSM0cg-unsplash_3_u06sgl_c_scalew_190.jpeg 190w,
+/assets/viktor-bystrov-ztryiOSM0cg-unsplash_3_u06sgl_c_scalew_662.jpeg 662w,
+/assets/viktor-bystrov-ztryiOSM0cg-unsplash_3_u06sgl_c_scalew_960.jpeg 960w"
+          src="/assets/viktor-bystrov-ztryiOSM0cg-unsplash_3_u06sgl_c_scalew_960.jpeg"
           alt="Gravel-Bike-Fahrer auf Sandweg im Wald">
       <img
           class="hidden md:block"
           sizes="(max-width: 2600px) 100vw, 2600px"
           srcset="
-/assets/viktor-bystrov-ztryiOSM0cg-unsplash_7_rnkerl_c_scalew_960.png 960w,
-/assets/viktor-bystrov-ztryiOSM0cg-unsplash_7_rnkerl_c_scalew_1910.png 1910w,
-/assets/viktor-bystrov-ztryiOSM0cg-unsplash_7_rnkerl_c_scalew_2600.png 2600w"
-          src="/assets/viktor-bystrov-ztryiOSM0cg-unsplash_7_rnkerl_c_scalew_2600.png"
+/assets/viktor-bystrov-ztryiOSM0cg-unsplash_7_rnkerl_c_scalew_960.jpeg 960w,
+/assets/viktor-bystrov-ztryiOSM0cg-unsplash_7_rnkerl_c_scalew_1910.jpeg 1910w,
+/assets/viktor-bystrov-ztryiOSM0cg-unsplash_7_rnkerl_c_scalew_2600.jpeg 2600w"
+          src="/assets/viktor-bystrov-ztryiOSM0cg-unsplash_7_rnkerl_c_scalew_2600.jpeg"
           alt="Gravel-Bike-Fahrer auf Sandweg im Wald">
 
     </section>
 
-    <section class="py-16 md:py-24">
-      <h2 class="font-display text-center text-race-gray antialiased text-5xl md:text-7xl leading-tight mb-4 md:mb-16">
-        Pics</h2>
-      <div class="gallery">
-        <img src="https://unsplash.it/800/600" height="600" v-for="i in 10">
-      </div>
-    </section>
+<!--    <section class="py-16 md:py-24">-->
+<!--      <h2 class="font-display text-center text-race-gray antialiased text-5xl md:text-7xl leading-tight mb-4 md:mb-16">-->
+<!--        Pics</h2>-->
+<!--      <div class="gallery">-->
+<!--        <img src="https://unsplash.it/800/600" height="600" v-for="i in 10">-->
+<!--      </div>-->
+<!--    </section>-->
 
-    <section class="pb-24 md:py-24">
+    <section class="py-24">
       <div class="relative mb-12 md:mb-24 overflow-x-hidden lg:flex lg:justify-center">
         <svg class="w-[240%] -ml-[60%] sm:w-[180%] sm:-ml-[40%] lg:w-full lg:ml-0 max-w-[2000px]" viewBox="0 0 1721 445"
              xmlns="http://www.w3.org/2000/svg">
@@ -329,6 +329,10 @@ useHead({
     }
   ]
 })
+
+const goTo = (url) => {
+  window.location.href = url;
+}
 
 onMounted(() => {
   // Get canvas and context
