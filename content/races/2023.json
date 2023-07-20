@@ -7,7 +7,7 @@
       "startTime": "11.00 Uhr",
       "awardCeremonyTime": "14.30 Uhr",
       "startLocation": "Meyers Hausstelle",
-      "registerLink": "https://www.rad-net.de/rad-net-portal/rad-net-ausschreibungen.htm?race=on&url=%2Fmodules.php%3Fname%3DAusschreibung%26race%3Don%26ID_Veranstaltung%3D38323%26mode%3Dascr_detail%26typ%3Di&url_hash=OI70S7L9zMlTTG1yq7Q5VILyru2mK4bxw0rM5EtOITE"
+      "registerLink": "https://meldungen.rad-net.de/modules.php?name=Ausschreibung&ID_Veranstaltung=38323&mode=ascr_detail&view=anmeld"
     },
     {
       "laps": 15,
@@ -16,10 +16,14 @@
       "startTime": "11.00 Uhr",
       "awardCeremonyTime": "14.30 Uhr",
       "startLocation": "Meyers Hausstelle",
-      "registerLink": "https://www.rad-net.de/rad-net-portal/rad-net-ausschreibungen.htm?race=on&url=%2Fmodules.php%3Fname%3DAusschreibung%26race%3Don%26ID_Veranstaltung%3D38323%26mode%3Dascr_detail%26typ%3Di&url_hash=OI70S7L9zMlTTG1yq7Q5VILyru2mK4bxw0rM5EtOITE"
+      "registerLink": "https://meldungen.rad-net.de/modules.php?name=Ausschreibung&ID_Veranstaltung=38323&mode=ascr_detail&view=anmeld"
     }
   ],
   "faqs": [
+    {
+      "question": "Wie melde ich mich an?",
+      "answer": "Die Anmeldung erfolgt über rad-net.de. Dort sind 4 Rennen vorgegeben. Wähle das korrekte Rennen für dich aus: R. 1.1 (männlich, 97km), R. 1.2 (männlich, 39km), R. 2.1 (weiblich, 97km), R. 2.2 (weiblich, 39km). Hier geht's zum <a href='https://meldungen.rad-net.de/modules.php?name=Ausschreibung&ID_Veranstaltung=38323&mode=ascr_detail&view=anmeld' target='_blank'>Melde-Formular</a>. Hier geht's zur <a href='https://www.rad-net.de/rad-net-portal/rad-net-ausschreibungen.htm?race=on&url=%2Fmodules.php%3Fname%3DAusschreibung%26race%3Don%26ID_Veranstaltung%3D38323%26mode%3Dascr_detail%26typ%3Di&url_hash=OI70S7L9zMlTTG1yq7Q5VILyru2mK4bxw0rM5EtOITE' target='_blank'>Ausschreibung</a>."
+    },
     {
       "question": "Wo startet das Rennen?",
       "answer": "Start, Ziel und Startnummerausgabe beider Rennen sind in der Meyerhausstellenschneise in der Nähe vom Waldcafé & Biergarten Meyers Hausstelle. (<a href='https://goo.gl/maps/BULKnExPhHuqNCU78' target='_blank'>Link zu Google Maps</a>)"
@@ -35,6 +39,10 @@
     {
       "question": "Bis wann kann ich mich anmelden?",
       "answer": "Die Anmeldung ist bis spätestens 30.08.2023 möglich. Das Startgeld muss bis zum 30.08.2023 eingegangen sein."
+    },
+    {
+      "question": "Wie schaut es aus mit Verpflegung?",
+      "answer": "Das Waldcafé & Biergarten Meyers Hausstelle bietet Getränke und Speisen an. Im Startgeld ist ein Imbiss inklusive."
     }
   ]
 }
