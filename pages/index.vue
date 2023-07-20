@@ -204,7 +204,7 @@
             <div class="splide__track">
               <ul class="splide__list">
                 <li class="splide__slide" v-for="item in data.media">
-                  <nuxt-img class="splide__slide object-contain w-full h-full" v-if="item.type === 'image'"
+                  <nuxt-img height="900" class="splide__slide object-contain w-full h-full" v-if="item.type === 'image'"
                             :src="item.path"/>
                   <div class="w-full h-full max-w-[1400px] mx-auto flex items-center" v-if="item.type === 'youtube'">
                     <iframe v-if="youtubeConsentGiven" :src="`https://www.youtube-nocookie.com/embed/${item.videoId}`"
