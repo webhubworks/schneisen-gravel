@@ -193,13 +193,21 @@
 
     </section>
 
-<!--    <section class="py-16 md:py-24">-->
-<!--      <h2 class="font-display text-center text-race-gray antialiased text-5xl md:text-7xl leading-tight mb-4 md:mb-16">-->
-<!--        Pics</h2>-->
-<!--      <div class="gallery">-->
-<!--        <img src="https://unsplash.it/800/600" height="600" v-for="i in 10">-->
-<!--      </div>-->
-<!--    </section>-->
+    <section class="py-16 md:py-24">
+      <h2 class="font-display text-center text-race-gray antialiased text-5xl md:text-7xl leading-tight mb-4 md:mb-16">
+        Pics</h2>
+      <div class="w-screen max-w-full h-[50vh] md:h-[60vh] lg:h-[80vh] xl:h-[96vh] flex overflow-y-hidden">
+        <ContentQuery path="races" find="one" :where="{title: '2023'}">
+          <template #default="{ data }">
+            <nuxt-img class="mx-4 h-full max-w-none" :src="img.path" v-for="img in data.gallery" />
+          </template>
+          <template #not-found>
+            <p>No race found.</p>
+          </template>
+        </ContentQuery>
+
+      </div>
+    </section>
 
     <section class="py-24">
       <div class="relative mb-12 md:mb-24 overflow-x-hidden lg:flex lg:justify-center">
@@ -421,15 +429,10 @@ onMounted(() => {
 </script>
 <style>
 .gallery {
-  width: 100vw;
-  max-width: 100%;
-  display: flex;
-  overflow-y: hidden;
   scroll-snap-type: x mandatory; /* Horizontal scrollen und Snap Points streng einhalten */
 }
 
 .gallery img {
-  margin: 0 1rem;
   scroll-snap-align: center; /* Die Mitte eines Bildes ist der Snap Point */
 }
 
