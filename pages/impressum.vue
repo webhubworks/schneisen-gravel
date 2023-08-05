@@ -21,18 +21,18 @@
             Anschrift
           </h3>
           <p class="text-xl font-sans mt-4 leading-normal">
-            <strong>Name</strong><br>
-            Straße Hausnummer<br>
-            PLZ Ort<br>
-            Tel: <a href="tel:"></a>
+            <strong>Dirk Holz</strong><br>
+            Fritz Reuter Str. 19<br>
+            18311 Ribnitz-Damgarten<br>
+            Tel: <a href="tel:0174-9511395">0174-9511395</a>
           </p>
 
           <p class="text-xl font-sans mt-4 leading-normal">
-            Vorname Nachname – E-Mail-Adresse
+            Dirk Holz – X-track85@web.de
           </p>
 
           <p class="text-xl font-sans mt-4 leading-normal">
-            <strong>Inhaltlich verantwortlich gemäß § 18. MStV:</strong>
+            <strong>Inhaltlich verantwortlich gemäß § 18. MStV: Dirk Holz</strong>
           </p>
         </section>
 

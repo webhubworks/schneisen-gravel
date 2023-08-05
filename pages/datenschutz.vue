@@ -17,12 +17,11 @@
             Name und Kontakt des Verantwortlichen gemäß Artikel 4 Abs. 7 DSGVO
           </h2>
           <p class="text-xl font-sans mt-4 leading-normal">
-            Vorname Nachname – E-Mail-Adresse
+            Dirk Holz – X-track85@web.de
           </p>
           <p class="text-xl font-sans mt-4 leading-normal">
-            <strong>Firmenname</strong><br>
-            Straße Hausnummer<br>
-            PLZ Ort
+            Fritz Reuter Str. 19<br>
+            18311 Ribnitz-Damgarten
           </p>
         </section>
 
