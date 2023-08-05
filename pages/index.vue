@@ -291,6 +291,7 @@
     <ul class="flex justify-center space-x-4 font-display text-xl text-race-gray mb-16">
       <li><a class="hover:text-pink-400" href="/impressum">Impressum</a></li>
       <li><a class="hover:text-pink-400" href="/datenschutz">Datenschutz</a></li>
+      <li><a class="hover:text-pink-400" href="/startliste">Startliste</a></li>
     </ul>
 
     <div class="flex flex-wrap text-race-gray justify-center">
