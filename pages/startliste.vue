@@ -113,6 +113,12 @@ const sortedPeople = computed(() => {
 
 const people = [
   {
+    "Name": "Andre Hagemeister",
+    "39km": true,
+    "97km": false,
+    "Startgeld gezahlt": false
+  },
+  {
     "Name": "Benjamin Götz",
     "39km": false,
     "97km": true,
@@ -191,12 +197,6 @@ const people = [
     "Startgeld gezahlt": true
   },
   {
-    "Name": "Dirk Holz",
-    "39km": false,
-    "97km": true,
-    "Startgeld gezahlt": true
-  },
-  {
     "Name": "Dennis Galle",
     "39km": false,
     "97km": true,
@@ -212,12 +212,6 @@ const people = [
     "Name": "Philipp Taube",
     "39km": false,
     "97km": true,
-    "Startgeld gezahlt": false
-  },
-  {
-    "Name": "Andre Hagemeister",
-    "39km": true,
-    "97km": false,
     "Startgeld gezahlt": false
   },
 ];
