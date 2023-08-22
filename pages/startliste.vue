@@ -19,13 +19,13 @@
                     Name
                   </th>
                   <th scope="col" class="whitespace-nowrap px-3 py-3.5 text-left text-sm font-semibold text-gray-900">
-                    39km
+                    39km ({{ peopleCount39 }}/{{ peopleCount }})
                   </th>
                   <th scope="col" class="whitespace-nowrap px-3 py-3.5 text-left text-sm font-semibold text-gray-900">
-                    97km
+                    97km ({{ peopleCount97 }}/{{ peopleCount }})
                   </th>
                   <th scope="col" class="whitespace-nowrap px-3 py-3.5 text-left text-sm font-semibold text-gray-900">
-                    Startgeld gezahlt
+                    Startgeld gezahlt ({{ peopleCountPaid }}/{{ peopleCount }})
                   </th>
                 </tr>
                 </thead>
@@ -109,6 +109,22 @@ const sortedPeople = computed(() => {
     }
     return 0
   })
+});
+
+const peopleCount97 = computed(() => {
+  return people.filter(person => person['97km']).length
+});
+
+const peopleCount39 = computed(() => {
+  return people.filter(person => person['39km']).length
+});
+
+const peopleCount = computed(() => {
+  return people.length;
+});
+
+const peopleCountPaid = computed(() => {
+  return people.filter(person => person['Startgeld gezahlt']).length
 });
 
 const people = [
