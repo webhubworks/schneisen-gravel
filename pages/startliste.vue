@@ -210,8 +210,50 @@ const people = [
   },
   {
     "Name": "Philipp Taube",
+    "39km": true,
+    "97km": false,
+    "Startgeld gezahlt": true
+  },
+  {
+    "Name": "Stefan Oelschlägel",
+    "39km": true,
+    "97km": false,
+    "Startgeld gezahlt": false
+  },
+  {
+    "Name": "Marcel Rarrasch",
     "39km": false,
     "97km": true,
+    "Startgeld gezahlt": true
+  },
+  {
+    "Name": "Katrin Rarrasch",
+    "39km": true,
+    "97km": false,
+    "Startgeld gezahlt": true
+  },
+  {
+    "Name": "Danny Müller-Nimke",
+    "39km": false,
+    "97km": true,
+    "Startgeld gezahlt": false
+  },
+  {
+    "Name": "Matthias Sellnow",
+    "39km": true,
+    "97km": false,
+    "Startgeld gezahlt": false
+  },
+  {
+    "Name": "Antonia Keidel",
+    "39km": true,
+    "97km": false,
+    "Startgeld gezahlt": false
+  },
+  {
+    "Name": "Tom Pietsch",
+    "39km": true,
+    "97km": false,
     "Startgeld gezahlt": false
   },
 ];
