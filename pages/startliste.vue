@@ -129,34 +129,28 @@ const peopleCountPaid = computed(() => {
 
 const people = [
   {
-    "Name": "Andre Hagemeister",
-    "39km": true,
-    "97km": false,
-    "Startgeld gezahlt": true
-  },
-  {
     "Name": "Benjamin Götz",
     "39km": false,
     "97km": true,
-    "Startgeld gezahlt": true
+    "Startgeld gezahlt": true,
   },
   {
     "Name": "Helge Sommerer",
     "39km": false,
     "97km": true,
-    "Startgeld gezahlt": true
+    "Startgeld gezahlt": true,
   },
   {
     "Name": "Oliver Arndt",
     "39km": false,
     "97km": true,
-    "Startgeld gezahlt": true
+    "Startgeld gezahlt": true,
   },
   {
     "Name": "Adrian Karnitzki",
     "39km": false,
     "97km": true,
-    "Startgeld gezahlt": false
+    "Startgeld gezahlt": true,
   },
   {
     "Name": "Vythas Huth",
@@ -168,7 +162,7 @@ const people = [
     "Name": "Ivo Diedrich",
     "39km": false,
     "97km": true,
-    "Startgeld gezahlt": true
+    "Startgeld gezahlt": true,
   },
   {
     "Name": "Thomas Heller",
@@ -180,13 +174,13 @@ const people = [
     "Name": "Marco Tabbert",
     "39km": false,
     "97km": true,
-    "Startgeld gezahlt": true
+    "Startgeld gezahlt": true,
   },
   {
     "Name": "Christian Leuteritz",
     "39km": false,
     "97km": true,
-    "Startgeld gezahlt": false
+    "Startgeld gezahlt": true,
   },
   {
     "Name": "Uli Kiele",
@@ -198,7 +192,7 @@ const people = [
     "Name": "Johannes Ahrndt",
     "39km": true,
     "97km": false,
-    "Startgeld gezahlt": true
+    "Startgeld gezahlt": true,
   },
   {
     "Name": "Juliane Borths",
@@ -210,7 +204,7 @@ const people = [
     "Name": "Dirk Holz",
     "39km": true,
     "97km": false,
-    "Startgeld gezahlt": true
+    "Startgeld gezahlt": true,
   },
   {
     "Name": "Dennis Galle",
@@ -222,49 +216,55 @@ const people = [
     "Name": "Johannes Lamprecht",
     "39km": true,
     "97km": false,
-    "Startgeld gezahlt": true
+    "Startgeld gezahlt": true,
   },
   {
     "Name": "Philipp Taube",
     "39km": true,
     "97km": false,
-    "Startgeld gezahlt": true
+    "Startgeld gezahlt": true,
+  },
+  {
+    "Name": "Andre Hagemeister",
+    "39km": true,
+    "97km": false,
+    "Startgeld gezahlt": true,
   },
   {
     "Name": "Stefan Oelschlägel",
     "39km": true,
     "97km": false,
-    "Startgeld gezahlt": true
+    "Startgeld gezahlt": true,
   },
   {
     "Name": "Marcel Rarrasch",
     "39km": true,
     "97km": false,
-    "Startgeld gezahlt": true
+    "Startgeld gezahlt": true,
   },
   {
     "Name": "Katrin Rarrasch",
     "39km": true,
     "97km": false,
-    "Startgeld gezahlt": true
+    "Startgeld gezahlt": true,
   },
   {
     "Name": "Danny Müller-Nimke",
     "39km": false,
     "97km": true,
-    "Startgeld gezahlt": true
+    "Startgeld gezahlt": true,
   },
   {
     "Name": "Matthias Sellnow",
     "39km": true,
     "97km": false,
-    "Startgeld gezahlt": true
+    "Startgeld gezahlt": true,
   },
   {
     "Name": "Antonia Keidel",
     "39km": true,
     "97km": false,
-    "Startgeld gezahlt": true
+    "Startgeld gezahlt": true,
   },
   {
     "Name": "Tom Pietsch",
@@ -272,5 +272,113 @@ const people = [
     "97km": false,
     "Startgeld gezahlt": false
   },
+  {
+    "Name": "Uwe Horn",
+    "39km": true,
+    "97km": false,
+    "Startgeld gezahlt": false
+  },
+  {
+    "Name": "Sandro Slomski",
+    "39km": true,
+    "97km": false,
+    "Startgeld gezahlt": false
+  },
+  {
+    "Name": "Dirk Austinat",
+    "39km": true,
+    "97km": false,
+    "Startgeld gezahlt": false
+  },
+  {
+    "Name": "Steven Pabst",
+    "39km": true,
+    "97km": false,
+    "Startgeld gezahlt": false
+  },
+  {
+    "Name": "Tin Brandt",
+    "39km": true,
+    "97km": false,
+    "Startgeld gezahlt": false
+  },
+  {
+    "Name": "Jacob Struß",
+    "39km": true,
+    "97km": false,
+    "Startgeld gezahlt": false
+  },
+  {
+    "Name": "Thomas Hörster",
+    "39km": true,
+    "97km": false,
+    "Startgeld gezahlt": true,
+  },
+  {
+    "Name": "Hannes Kaufmann",
+    "39km": true,
+    "97km": false,
+    "Startgeld gezahlt": false
+  },
+  {
+    "Name": "Arno Locke",
+    "39km": true,
+    "97km": false,
+    "Startgeld gezahlt": false
+  },
+  {
+    "Name": "Steffen Skelte",
+    "39km": false,
+    "97km": true,
+    "Startgeld gezahlt": true,
+  },
+  {
+    "Name": "Christoph Neimög",
+    "39km": true,
+    "97km": false,
+    "Startgeld gezahlt": false
+  },
+  {
+    "Name": "David Vogel",
+    "39km": true,
+    "97km": false,
+    "Startgeld gezahlt": false
+  },
+  {
+    "Name": "Ringo Kuchinke",
+    "39km": false,
+    "97km": true,
+    "Startgeld gezahlt": false
+  },
+  {
+    "Name": "Arne Hoppe",
+    "39km": false,
+    "97km": true,
+    "Startgeld gezahlt": false
+  },
+  {
+    "Name": "Daniel Glienke",
+    "39km": true,
+    "97km": false,
+    "Startgeld gezahlt": false
+  },
+  {
+    "Name": "Martin Stephan",
+    "39km": true,
+    "97km": false,
+    "Startgeld gezahlt": false
+  },
+  {
+    "Name": "Samir Kesou",
+    "39km": true,
+    "97km": false,
+    "Startgeld gezahlt": false
+  },
+  {
+    "Name": "Phillip Kaufmann",
+    "39km": true,
+    "97km": false,
+    "Startgeld gezahlt": false
+  }
 ];
 </script>
