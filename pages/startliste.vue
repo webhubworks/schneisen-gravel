@@ -132,7 +132,7 @@ const people = [
     "Name": "Andre Hagemeister",
     "39km": true,
     "97km": false,
-    "Startgeld gezahlt": false
+    "Startgeld gezahlt": true
   },
   {
     "Name": "Benjamin Götz",
@@ -208,8 +208,8 @@ const people = [
   },
   {
     "Name": "Dirk Holz",
-    "39km": false,
-    "97km": true,
+    "39km": true,
+    "97km": false,
     "Startgeld gezahlt": true
   },
   {
@@ -234,12 +234,12 @@ const people = [
     "Name": "Stefan Oelschlägel",
     "39km": true,
     "97km": false,
-    "Startgeld gezahlt": false
+    "Startgeld gezahlt": true
   },
   {
     "Name": "Marcel Rarrasch",
-    "39km": false,
-    "97km": true,
+    "39km": true,
+    "97km": false,
     "Startgeld gezahlt": true
   },
   {
@@ -252,19 +252,19 @@ const people = [
     "Name": "Danny Müller-Nimke",
     "39km": false,
     "97km": true,
-    "Startgeld gezahlt": false
+    "Startgeld gezahlt": true
   },
   {
     "Name": "Matthias Sellnow",
     "39km": true,
     "97km": false,
-    "Startgeld gezahlt": false
+    "Startgeld gezahlt": true
   },
   {
     "Name": "Antonia Keidel",
     "39km": true,
     "97km": false,
-    "Startgeld gezahlt": false
+    "Startgeld gezahlt": true
   },
   {
     "Name": "Tom Pietsch",
