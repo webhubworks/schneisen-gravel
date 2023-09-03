@@ -161,7 +161,7 @@
 
       <div class="mt-8 flow-root">
         <h2 class="font-display text-race-gray antialiased text-3xl md:text-4xl leading-tight md:leading-[5rem] mb-4 md:mb-8">
-          97km Rennen <small>({{results97.length}} Platzierungen)</small></h2>
+          97,5km Rennen <small>({{results97.length}} Platzierungen)</small></h2>
         <div class="-mx-4 -my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
           <div class="inline-block min-w-full py-2 align-middle sm:px-6 lg:px-8">
             <div class="overflow-hidden shadow ring-1 ring-black ring-opacity-5 sm:rounded-lg">
