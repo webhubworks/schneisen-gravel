@@ -21,6 +21,7 @@
     "@tailwindcss/forms": "^0.5.4",
     "@ubclaunchpad/vue-fathom": "^2.0.0",
     "@vueuse/core": "^10.2.1",
-    "dayjs": "^1.11.9"
+    "dayjs": "^1.11.9",
+    "photoswipe": "^5.4.1"
   }
 }

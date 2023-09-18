@@ -1,327 +1,299 @@
 <template>
-  <header class="bg-blue-200 min-h-screen relative w-full">
-    <h1 class="font-display text-right absolute bottom-0 right-0 italic text-7xl md:text-8xl p-6 leading-tight md:leading-[7rem] uppercase">
-      Schneisen<br>Gravel</h1>
-    <p class="absolute font-display top-[4rem] left-[-1rem] md:top-[5rem] md:left-[-2rem] text-7xl md:text-8xl transform rotate-[270deg]">
-      2023</p>
-    <canvas id="header-canvas">
-      Your browser does not support the HTML5 canvas tag.
-    </canvas>
-  </header>
+    <header class="bg-blue-200 min-h-screen relative w-full">
+      <h1 class="font-display text-right absolute bottom-0 right-0 italic text-7xl md:text-8xl p-6 leading-tight md:leading-[7rem] uppercase">
+        Schneisen<br>Gravel</h1>
+      <p class="absolute font-display top-[4rem] left-[-1rem] md:top-[5rem] md:left-[-2rem] text-7xl md:text-8xl transform rotate-[270deg]">
+        2023</p>
+      <canvas id="header-canvas">
+        Your browser does not support the HTML5 canvas tag.
+      </canvas>
+    </header>
 
-  <main class="block">
+    <main class="block">
 
-    <section class="bg-race-green py-16">
-      <div class="container mx-auto px-4">
-        <h2 class="font-display text-race-gray antialiased text-5xl md:text-7xl leading-tight md:leading-[5rem] mb-4 md:mb-16">
-          Offenes
-          Rennen für
-          jeden <br class="hidden xl:block">auf
-          einer schnellen 6,5 Km-Runde <br class="hidden xl:block">in der Rostocker Heide</h2>
+      <section class="bg-race-green py-16">
+        <div class="container mx-auto px-4">
+          <h2 class="font-display text-race-gray antialiased text-5xl md:text-7xl leading-tight md:leading-[5rem] mb-4 md:mb-16">
+            Offenes
+            Rennen für
+            jeden <br class="hidden xl:block">auf
+            einer schnellen 6,5 Km-Runde <br class="hidden xl:block">in der Rostocker Heide</h2>
 
-        <div class="text-xl max-w-3xl mb-8">Vielen Dank an alle, die dabei waren. Das 1. Gravel-Rennen in MV war ein voller Erfolg und wir freuen uns auf's nächste Mal. Fotos und Videos sind in Kürze verfügbar. Hier geht's zu den Ergebnissen:</div>
+          <div class="text-xl max-w-3xl mb-8">Vielen Dank an alle, die dabei waren. Das 1. Gravel-Rennen in MV war ein voller Erfolg und wir freuen uns auf's nächste Mal. Hier geht's zu den Ergebnissen, den Bildern und einem nicen Video:</div>
 
-        <a href="/ergebnisse-2023" class="inline-block text-2xl px-10 py-4 md:px-12 md:py-6 bg-black border-black border-4 text-white italic font-display hover:bg-race-blue hover:text-black cursor-pointer">Ergebnisse 2023</a>
-
-        <!--        <div class="flex flex-wrap flex-col-reverse lg:flex-row lg:items-center">-->
-
-<!--          <ContentQuery path="races" find="one" :where="{title: '2023'}">-->
-<!--            <template #default="{ data }">-->
-<!--              <form method="GET"-->
-<!--                    @submit.prevent="goTo(data.tracks[0].registerLink)"-->
-<!--                    class="w-full lg:w-1/2 font-display text-race-gray text-4xl sm:text-5xl xl:text-6xl italic pt-12">-->
-<!--                <div class="flex mb-12" v-for="(track, index) in data.tracks">-->
-<!--                  <input-->
-<!--                      @change="lapCountSelected = track.laps"-->
-<!--                      class="h-10 w-10 md:h-12 md:w-12 md:mt-1 mr-4 border-race-gray border-4 text-race-gray focus:ring-pink-500 focus:ring-4 cursor-pointer"-->
-<!--                      :checked="index === 0"-->
-<!--                      :id="`track-${index}`"-->
-<!--                      name="race" type="radio">-->
-<!--                  <label :for="`track-${index}`"><span>{{ track.distance }}KM</span><span-->
-<!--                      class="ml-2 sm:ml-6 text-white">{{ track.laps }} Runden</span></label>-->
-<!--                </div>-->
-<!--                <input type="submit" value="Anmelden"-->
-<!--                       class="px-10 py-4 md:px-12 md:py-6 md:mt-8 bg-black border-black border-4 text-white italic font-display hover:bg-race-blue hover:text-black cursor-pointer">-->
-<!--              </form>-->
-<!--            </template>-->
-<!--            <template #not-found>-->
-<!--              <p>No race found.</p>-->
-<!--            </template>-->
-<!--          </ContentQuery>-->
-
-<!--          <div class="w-full lg:w-1/2">-->
-<!--            <svg v-if="lapCountSelected === 6" class="mx-auto max-w-[600px] pulse animated infinite"-->
-<!--                 viewBox="0 0 655 679" fill="none" xmlns="http://www.w3.org/2000/svg">-->
-<!--              <g clip-path="url(#clip0_228_50)">-->
-<!--                <path-->
-<!--                    d="M6 524.5V489.5L588 80L604.5 84.5L620.5 103C622.667 108.167 627.6 120.1 630 126.5C633 134.5 641 161 644 166C647 171 648 190.5 648 195C648 198.6 651 199.833 652.5 200C618.833 240 549.5 321.1 541.5 325.5L481 346.5L231.5 452.5L243 540L6 524.5Z"-->
-<!--                    stroke="white" stroke-width="4" stroke-linejoin="bevel"/>-->
-<!--                <path-->
-<!--                    d="M6 544.5V509.5L588 100L604.5 104.5L620.5 123C622.667 128.167 627.6 140.1 630 146.5C633 154.5 641 181 644 186C647 191 648 210.5 648 215C648 218.6 651 219.833 652.5 220C618.833 260 549.5 341.1 541.5 345.5L481 366.5L231.5 472.5L243 560L6 544.5Z"-->
-<!--                    stroke="white" stroke-width="4" stroke-linejoin="bevel"/>-->
-<!--                <path-->
-<!--                    d="M6 564.5V529.5L588 120L604.5 124.5L620.5 143C622.667 148.167 627.6 160.1 630 166.5C633 174.5 641 201 644 206C647 211 648 230.5 648 235C648 238.6 651 239.833 652.5 240C618.833 280 549.5 361.1 541.5 365.5L481 386.5L231.5 492.5L243 580L6 564.5Z"-->
-<!--                    stroke="white" stroke-width="4" stroke-linejoin="bevel"/>-->
-<!--                <path-->
-<!--                    d="M6 584.5V549.5L588 140L604.5 144.5L620.5 163C622.667 168.167 627.6 180.1 630 186.5C633 194.5 641 221 644 226C647 231 648 250.5 648 255C648 258.6 651 259.833 652.5 260C618.833 300 549.5 381.1 541.5 385.5L481 406.5L231.5 512.5L243 600L6 584.5Z"-->
-<!--                    stroke="white" stroke-width="4" stroke-linejoin="bevel"/>-->
-<!--                <path-->
-<!--                    d="M6 604.5V569.5L588 160L604.5 164.5L620.5 183C622.667 188.167 627.6 200.1 630 206.5C633 214.5 641 241 644 246C647 251 648 270.5 648 275C648 278.6 651 279.833 652.5 280C618.833 320 549.5 401.1 541.5 405.5L481 426.5L231.5 532.5L243 620L6 604.5Z"-->
-<!--                    stroke="white" stroke-width="4" stroke-linejoin="bevel"/>-->
-<!--                <path-->
-<!--                    d="M6 504.5V469.5L588 60L604.5 64.5L620.5 83C622.667 88.1667 627.6 100.1 630 106.5C633 114.5 641 141 644 146C647 151 648 170.5 648 175C648 178.6 651 179.833 652.5 180C618.833 220 549.5 301.1 541.5 305.5L481 326.5L231.5 432.5L243 520L6 504.5Z"-->
-<!--                    stroke="black" stroke-width="10" stroke-linejoin="bevel"/>-->
-<!--                <circle cx="526" cy="101.5" r="15" fill="black"/>-->
-<!--                <path-->
-<!--                    d="M534.384 95.3079C534.275 95.2584 534.154 95.2413 534.036 95.2586C533.917 95.2759 533.806 95.3269 533.716 95.4056C531.528 97.2978 529.675 96.3806 527.527 95.3173C525.302 94.215 522.78 92.9673 519.966 95.4056C519.898 95.4639 519.844 95.5358 519.807 95.6167C519.77 95.6975 519.751 95.7854 519.75 95.8744V108.999C519.75 109.165 519.816 109.324 519.933 109.441C520.05 109.559 520.209 109.624 520.375 109.624C520.541 109.624 520.7 109.559 520.817 109.441C520.934 109.324 521 109.165 521 108.999V105.544C523.093 103.891 524.896 104.782 526.973 105.81C529.198 106.911 531.72 108.159 534.534 105.722C534.602 105.664 534.656 105.592 534.693 105.511C534.73 105.43 534.749 105.342 534.75 105.253V95.8744C534.75 95.7549 534.715 95.638 534.65 95.5376C534.585 95.4372 534.493 95.3575 534.384 95.3079ZM533.5 97.0931V100.581C532.406 101.445 531.391 101.614 530.375 101.431V97.6978C531.455 97.8666 532.561 97.6527 533.5 97.0931ZM529.125 97.3869V101.059C528.605 100.85 528.076 100.59 527.527 100.317C526.838 99.9767 526.121 99.622 525.375 99.3665V95.6947C525.895 95.9025 526.424 96.1634 526.973 96.4353C527.662 96.7767 528.38 97.1314 529.125 97.3869ZM524.125 95.3204V99.0533C523.045 98.8848 521.939 99.099 521 99.6587V96.1697C522.094 95.3056 523.109 95.1376 524.125 95.3204ZM523.389 103.374C522.548 103.376 521.723 103.603 521 104.033V101.17C522.094 100.306 523.109 100.137 524.125 100.32V103.429C523.881 103.393 523.635 103.375 523.389 103.374ZM525.375 103.739V100.692C525.895 100.9 526.424 101.161 526.973 101.433C527.662 101.774 528.379 102.128 529.125 102.384V105.431C528.605 105.222 528.076 104.962 527.527 104.69C526.838 104.349 526.12 103.995 525.375 103.739ZM530.375 105.806V102.696C530.619 102.733 530.865 102.751 531.111 102.752C531.952 102.75 532.777 102.521 533.5 102.091V104.956C532.406 105.82 531.391 105.988 530.375 105.806Z"-->
-<!--                    fill="white"/>-->
-<!--              </g>-->
-<!--              <defs>-->
-<!--                <clipPath id="clip0_228_50">-->
-<!--                  <rect width="655" height="679" fill="white"/>-->
-<!--                </clipPath>-->
-<!--              </defs>-->
-<!--            </svg>-->
-
-<!--            <svg v-if="lapCountSelected === 15" class="mx-auto max-w-[600px] pulse animated infinite"-->
-<!--                 viewBox="0 0 655 679" fill="none" xmlns="http://www.w3.org/2000/svg">-->
-<!--              <g clip-path="url(#clip0_228_51)">-->
-<!--                <path-->
-<!--                    d="M6 465.5V430.5L588.45 21L604.963 25.5L620.975 44C623.144 49.1667 628.081 61.1 630.483 67.5C633.485 75.5 641.491 102 644.493 107C647.496 112 648.497 131.5 648.497 136C648.497 139.6 651.499 140.833 653 141C619.307 181 549.92 262.1 541.914 266.5L481.367 287.5L231.674 393.5L243.183 481L6 465.5Z"-->
-<!--                    stroke="white" stroke-width="4" stroke-linejoin="bevel"/>-->
-<!--                <path-->
-<!--                    d="M6 480.5V445.5L588.45 36L604.963 40.5L620.975 59C623.144 64.1667 628.081 76.1 630.483 82.5C633.485 90.5 641.491 117 644.493 122C647.496 127 648.497 146.5 648.497 151C648.497 154.6 651.499 155.833 653 156C619.307 196 549.92 277.1 541.914 281.5L481.367 302.5L231.674 408.5L243.183 496L6 480.5Z"-->
-<!--                    stroke="white" stroke-width="4" stroke-linejoin="bevel"/>-->
-<!--                <path-->
-<!--                    d="M6 495.5V460.5L588.45 51L604.963 55.5L620.975 74C623.144 79.1667 628.081 91.1 630.483 97.5C633.485 105.5 641.491 132 644.493 137C647.496 142 648.497 161.5 648.497 166C648.497 169.6 651.499 170.833 653 171C619.307 211 549.92 292.1 541.914 296.5L481.367 317.5L231.674 423.5L243.183 511L6 495.5Z"-->
-<!--                    stroke="white" stroke-width="4" stroke-linejoin="bevel"/>-->
-<!--                <path-->
-<!--                    d="M6 510.5V475.5L588.45 66L604.963 70.5L620.975 89C623.144 94.1667 628.081 106.1 630.483 112.5C633.485 120.5 641.491 147 644.493 152C647.496 157 648.497 176.5 648.497 181C648.497 184.6 651.499 185.833 653 186C619.307 226 549.92 307.1 541.914 311.5L481.367 332.5L231.674 438.5L243.183 526L6 510.5Z"-->
-<!--                    stroke="white" stroke-width="4" stroke-linejoin="bevel"/>-->
-<!--                <path-->
-<!--                    d="M6 525.5V490.5L588.45 81L604.963 85.5L620.975 104C623.144 109.167 628.081 121.1 630.483 127.5C633.485 135.5 641.491 162 644.493 167C647.496 172 648.497 191.5 648.497 196C648.497 199.6 651.499 200.833 653 201C619.307 241 549.92 322.1 541.914 326.5L481.367 347.5L231.674 453.5L243.183 541L6 525.5Z"-->
-<!--                    stroke="white" stroke-width="4" stroke-linejoin="bevel"/>-->
-<!--                <path-->
-<!--                    d="M6 540.5V505.5L588.45 96L604.963 100.5L620.975 119C623.144 124.167 628.081 136.1 630.483 142.5C633.485 150.5 641.491 177 644.493 182C647.496 187 648.497 206.5 648.497 211C648.497 214.6 651.499 215.833 653 216C619.307 256 549.92 337.1 541.914 341.5L481.367 362.5L231.674 468.5L243.183 556L6 540.5Z"-->
-<!--                    stroke="white" stroke-width="4" stroke-linejoin="bevel"/>-->
-<!--                <path-->
-<!--                    d="M6 555.5V520.5L588.45 111L604.963 115.5L620.975 134C623.144 139.167 628.081 151.1 630.483 157.5C633.485 165.5 641.491 192 644.493 197C647.496 202 648.497 221.5 648.497 226C648.497 229.6 651.499 230.833 653 231C619.307 271 549.92 352.1 541.914 356.5L481.367 377.5L231.674 483.5L243.183 571L6 555.5Z"-->
-<!--                    stroke="white" stroke-width="4" stroke-linejoin="bevel"/>-->
-<!--                <path-->
-<!--                    d="M6 570.5V535.5L588.45 126L604.963 130.5L620.975 149C623.144 154.167 628.081 166.1 630.483 172.5C633.485 180.5 641.491 207 644.493 212C647.496 217 648.497 236.5 648.497 241C648.497 244.6 651.499 245.833 653 246C619.307 286 549.92 367.1 541.914 371.5L481.367 392.5L231.674 498.5L243.183 586L6 570.5Z"-->
-<!--                    stroke="white" stroke-width="4" stroke-linejoin="bevel"/>-->
-<!--                <path-->
-<!--                    d="M6 585.5V550.5L588.45 141L604.963 145.5L620.975 164C623.144 169.167 628.081 181.1 630.483 187.5C633.485 195.5 641.491 222 644.493 227C647.496 232 648.497 251.5 648.497 256C648.497 259.6 651.499 260.833 653 261C619.307 301 549.92 382.1 541.914 386.5L481.367 407.5L231.674 513.5L243.183 601L6 585.5Z"-->
-<!--                    stroke="white" stroke-width="4" stroke-linejoin="bevel"/>-->
-<!--                <path-->
-<!--                    d="M6 600.5V565.5L588.45 156L604.963 160.5L620.975 179C623.144 184.167 628.081 196.1 630.483 202.5C633.485 210.5 641.491 237 644.493 242C647.496 247 648.497 266.5 648.497 271C648.497 274.6 651.499 275.833 653 276C619.307 316 549.92 397.1 541.914 401.5L481.367 422.5L231.674 528.5L243.183 616L6 600.5Z"-->
-<!--                    stroke="white" stroke-width="4" stroke-linejoin="bevel"/>-->
-<!--                <path-->
-<!--                    d="M6 615.5V580.5L588.45 171L604.963 175.5L620.975 194C623.144 199.167 628.081 211.1 630.483 217.5C633.485 225.5 641.491 252 644.493 257C647.496 262 648.497 281.5 648.497 286C648.497 289.6 651.499 290.833 653 291C619.307 331 549.92 412.1 541.914 416.5L481.367 437.5L231.674 543.5L243.183 631L6 615.5Z"-->
-<!--                    stroke="white" stroke-width="4" stroke-linejoin="bevel"/>-->
-<!--                <path-->
-<!--                    d="M6 630.5V595.5L588.45 186L604.963 190.5L620.975 209C623.144 214.167 628.081 226.1 630.483 232.5C633.485 240.5 641.491 267 644.493 272C647.496 277 648.497 296.5 648.497 301C648.497 304.6 651.499 305.833 653 306C619.307 346 549.92 427.1 541.914 431.5L481.367 452.5L231.674 558.5L243.183 646L6 630.5Z"-->
-<!--                    stroke="white" stroke-width="4" stroke-linejoin="bevel"/>-->
-<!--                <path-->
-<!--                    d="M6 645.5V610.5L588.45 201L604.963 205.5L620.975 224C623.144 229.167 628.081 241.1 630.483 247.5C633.485 255.5 641.491 282 644.493 287C647.496 292 648.497 311.5 648.497 316C648.497 319.6 651.499 320.833 653 321C619.307 361 549.92 442.1 541.914 446.5L481.367 467.5L231.674 573.5L243.183 661L6 645.5Z"-->
-<!--                    stroke="white" stroke-width="4" stroke-linejoin="bevel"/>-->
-<!--                <path-->
-<!--                    d="M6 660.5V625.5L588.45 216L604.963 220.5L620.975 239C623.144 244.167 628.081 256.1 630.483 262.5C633.485 270.5 641.491 297 644.493 302C647.496 307 648.497 326.5 648.497 331C648.497 334.6 651.499 335.833 653 336C619.307 376 549.92 457.1 541.914 461.5L481.367 482.5L231.674 588.5L243.183 676L6 660.5Z"-->
-<!--                    stroke="white" stroke-width="4" stroke-linejoin="bevel"/>-->
-<!--                <path-->
-<!--                    d="M6 450.5V415.5L588.45 6L604.963 10.5L620.975 29C623.144 34.1667 628.081 46.1 630.483 52.5C633.485 60.5 641.491 87 644.493 92C647.496 97 648.497 116.5 648.497 121C648.497 124.6 651.499 125.833 653 126C619.307 166 549.92 247.1 541.914 251.5L481.367 272.5L231.674 378.5L243.183 466L6 450.5Z"-->
-<!--                    stroke="black" stroke-width="10" stroke-linejoin="bevel"/>-->
-<!--                <ellipse cx="526.402" cy="47.5" rx="15.0116" ry="15" fill="black"/>-->
-<!--                <path-->
-<!--                    d="M534.793 41.3079C534.684 41.2584 534.563 41.2413 534.444 41.2586C534.325 41.2759 534.214 41.3269 534.124 41.4056C531.934 43.2978 530.08 42.3806 527.931 41.3173C525.704 40.215 523.179 38.9673 520.363 41.4056C520.296 41.4639 520.242 41.5358 520.204 41.6167C520.167 41.6975 520.148 41.7854 520.147 41.8744V54.9994C520.147 55.1651 520.213 55.3241 520.33 55.4413C520.448 55.5585 520.607 55.6244 520.773 55.6244C520.939 55.6244 521.098 55.5585 521.215 55.4413C521.332 55.3241 521.398 55.1651 521.398 54.9994V51.5439C523.493 49.8908 525.297 50.7822 527.375 51.8103C529.603 52.9111 532.127 54.1587 534.943 51.722C535.01 51.6637 535.064 51.5918 535.102 51.5109C535.139 51.4301 535.158 51.3422 535.159 51.2533V41.8744C535.158 41.7549 535.124 41.638 535.059 41.5376C534.994 41.4372 534.902 41.3575 534.793 41.3079ZM533.908 43.0931V46.5814C532.813 47.4454 531.797 47.6142 530.78 47.4314V43.6978C531.862 43.8666 532.968 43.6527 533.908 43.0931ZM529.529 43.3869V47.0587C529.009 46.8501 528.479 46.59 527.931 46.3173C527.241 45.9767 526.523 45.622 525.777 45.3665V41.6947C526.297 41.9025 526.827 42.1634 527.375 42.4353C528.065 42.7767 528.784 43.1314 529.529 43.3869ZM524.526 41.3204V45.0533C523.444 44.8848 522.338 45.099 521.398 45.6587V42.1697C522.493 41.3056 523.509 41.1376 524.526 41.3204ZM523.789 49.3744C522.947 49.3758 522.122 49.6033 521.398 50.0329V47.1697C522.493 46.3056 523.509 46.1369 524.526 46.3197V49.429C524.282 49.3932 524.036 49.3749 523.789 49.3744ZM525.777 49.7392V46.6923C526.297 46.9001 526.827 47.1611 527.375 47.4329C528.065 47.7744 528.783 48.1283 529.529 48.3837V51.4306C529.009 51.222 528.479 50.9619 527.931 50.69C527.241 50.3486 526.522 49.9947 525.777 49.7392ZM530.78 51.8056V48.6962C531.024 48.7326 531.27 48.7514 531.517 48.7525C532.359 48.7499 533.185 48.5213 533.908 48.0908V50.9564C532.813 51.8204 531.797 51.9884 530.78 51.8056Z"-->
-<!--                    fill="white"/>-->
-<!--              </g>-->
-<!--              <defs>-->
-<!--                <clipPath id="clip0_228_51">-->
-<!--                  <rect width="655" height="679" fill="white"/>-->
-<!--                </clipPath>-->
-<!--              </defs>-->
-<!--            </svg>-->
-
-<!--          </div>-->
-<!--        </div>-->
-      </div>
-    </section>
-
-    <section class="bg-race-blue flex flex-wrap flex-col-reverse md:flex-col">
-      <ContentQuery path="races" find="one" :where="{title: '2023'}">
-        <template #default="{ data }">
-          <div
-              class="container mx-auto grid grid-cols-1 gap-16 sm:grid-cols-2 xl:grid-cols-4 sm:gap-8 justify-center font-display py-12">
-            <dl class="text-center">
-              <dt class="font-bold mb-4 italic text-2xl">Datum</dt>
-              <dd class="text-3xl md:text-4xl whitespace-nowrap">
-                {{ data.tracks[0].date }}
-              </dd>
-            </dl>
-            <dl class="text-center">
-              <dt class="font-bold mb-4 italic text-2xl">Start/Ziel</dt>
-              <dd class="text-3xl md:text-4xl whitespace-nowrap">{{ data.tracks[0].startLocation }}</dd>
-            </dl>
-            <dl class="text-center">
-              <dt class="font-bold mb-4 italic text-2xl">Startschuss</dt>
-              <dd class="text-3xl md:text-4xl whitespace-nowrap">{{ data.tracks[0].startTime }}</dd>
-            </dl>
-            <dl class="text-center">
-              <dt class="font-bold mb-4 italic text-2xl">Siegerehrung</dt>
-              <dd class="text-3xl md:text-4xl whitespace-nowrap">{{ data.tracks[0].awardCeremonyTime }}</dd>
-            </dl>
+          <div class="flex space-x-4">
+            <a href="/ergebnisse-2023" class="inline-block text-2xl px-10 py-4 md:px-12 md:py-6 bg-black border-black border-4 text-white italic font-display hover:bg-race-blue hover:text-black cursor-pointer">Ergebnisse 2023</a>
+            <a href="/medien-2023" class="inline-block text-2xl px-10 py-4 md:px-12 md:py-6 bg-transparent border-black border-4 text-white italic font-display hover:bg-race-blue hover:text-black cursor-pointer">Galerie</a>
           </div>
-        </template>
-        <template #not-found>
-          <p>No race found.</p>
-        </template>
-      </ContentQuery>
 
-      <img
-          class="md:hidden"
-          sizes="(max-width: 960px) 100vw, 960px"
-          srcset="
-/assets/viktor-bystrov-ztryiOSM0cg-unsplash_3_u06sgl_c_scalew_190.jpeg 190w,
-/assets/viktor-bystrov-ztryiOSM0cg-unsplash_3_u06sgl_c_scalew_662.jpeg 662w,
-/assets/viktor-bystrov-ztryiOSM0cg-unsplash_3_u06sgl_c_scalew_960.jpeg 960w"
-          src="/assets/viktor-bystrov-ztryiOSM0cg-unsplash_3_u06sgl_c_scalew_960.jpeg"
-          alt="Gravel-Bike-Fahrer auf Sandweg im Wald">
-      <img
-          class="hidden md:block"
-          sizes="(max-width: 2600px) 100vw, 2600px"
-          srcset="
-/assets/viktor-bystrov-ztryiOSM0cg-unsplash_7_rnkerl_c_scalew_960.jpeg 960w,
-/assets/viktor-bystrov-ztryiOSM0cg-unsplash_7_rnkerl_c_scalew_1910.jpeg 1910w,
-/assets/viktor-bystrov-ztryiOSM0cg-unsplash_7_rnkerl_c_scalew_2600.jpeg 2600w"
-          src="/assets/viktor-bystrov-ztryiOSM0cg-unsplash_7_rnkerl_c_scalew_2600.jpeg"
-          alt="Gravel-Bike-Fahrer auf Sandweg im Wald">
+          <!--        <div class="flex flex-wrap flex-col-reverse lg:flex-row lg:items-center">-->
 
-    </section>
+          <!--          <ContentQuery path="races" find="one" :where="{title: '2023'}">-->
+          <!--            <template #default="{ data }">-->
+          <!--              <form method="GET"-->
+          <!--                    @submit.prevent="goTo(data.tracks[0].registerLink)"-->
+          <!--                    class="w-full lg:w-1/2 font-display text-race-gray text-4xl sm:text-5xl xl:text-6xl italic pt-12">-->
+          <!--                <div class="flex mb-12" v-for="(track, index) in data.tracks">-->
+          <!--                  <input-->
+          <!--                      @change="lapCountSelected = track.laps"-->
+          <!--                      class="h-10 w-10 md:h-12 md:w-12 md:mt-1 mr-4 border-race-gray border-4 text-race-gray focus:ring-pink-500 focus:ring-4 cursor-pointer"-->
+          <!--                      :checked="index === 0"-->
+          <!--                      :id="`track-${index}`"-->
+          <!--                      name="race" type="radio">-->
+          <!--                  <label :for="`track-${index}`"><span>{{ track.distance }}KM</span><span-->
+          <!--                      class="ml-2 sm:ml-6 text-white">{{ track.laps }} Runden</span></label>-->
+          <!--                </div>-->
+          <!--                <input type="submit" value="Anmelden"-->
+          <!--                       class="px-10 py-4 md:px-12 md:py-6 md:mt-8 bg-black border-black border-4 text-white italic font-display hover:bg-race-blue hover:text-black cursor-pointer">-->
+          <!--              </form>-->
+          <!--            </template>-->
+          <!--            <template #not-found>-->
+          <!--              <p>No race found.</p>-->
+          <!--            </template>-->
+          <!--          </ContentQuery>-->
 
-    <section class="py-16 md:py-24">
-      <h2 class="font-display text-center text-race-gray antialiased text-5xl md:text-7xl leading-tight mb-4 md:mb-16">
-        media</h2>
+          <!--          <div class="w-full lg:w-1/2">-->
+          <!--            <svg v-if="lapCountSelected === 6" class="mx-auto max-w-[600px] pulse animated infinite"-->
+          <!--                 viewBox="0 0 655 679" fill="none" xmlns="http://www.w3.org/2000/svg">-->
+          <!--              <g clip-path="url(#clip0_228_50)">-->
+          <!--                <path-->
+          <!--                    d="M6 524.5V489.5L588 80L604.5 84.5L620.5 103C622.667 108.167 627.6 120.1 630 126.5C633 134.5 641 161 644 166C647 171 648 190.5 648 195C648 198.6 651 199.833 652.5 200C618.833 240 549.5 321.1 541.5 325.5L481 346.5L231.5 452.5L243 540L6 524.5Z"-->
+          <!--                    stroke="white" stroke-width="4" stroke-linejoin="bevel"/>-->
+          <!--                <path-->
+          <!--                    d="M6 544.5V509.5L588 100L604.5 104.5L620.5 123C622.667 128.167 627.6 140.1 630 146.5C633 154.5 641 181 644 186C647 191 648 210.5 648 215C648 218.6 651 219.833 652.5 220C618.833 260 549.5 341.1 541.5 345.5L481 366.5L231.5 472.5L243 560L6 544.5Z"-->
+          <!--                    stroke="white" stroke-width="4" stroke-linejoin="bevel"/>-->
+          <!--                <path-->
+          <!--                    d="M6 564.5V529.5L588 120L604.5 124.5L620.5 143C622.667 148.167 627.6 160.1 630 166.5C633 174.5 641 201 644 206C647 211 648 230.5 648 235C648 238.6 651 239.833 652.5 240C618.833 280 549.5 361.1 541.5 365.5L481 386.5L231.5 492.5L243 580L6 564.5Z"-->
+          <!--                    stroke="white" stroke-width="4" stroke-linejoin="bevel"/>-->
+          <!--                <path-->
+          <!--                    d="M6 584.5V549.5L588 140L604.5 144.5L620.5 163C622.667 168.167 627.6 180.1 630 186.5C633 194.5 641 221 644 226C647 231 648 250.5 648 255C648 258.6 651 259.833 652.5 260C618.833 300 549.5 381.1 541.5 385.5L481 406.5L231.5 512.5L243 600L6 584.5Z"-->
+          <!--                    stroke="white" stroke-width="4" stroke-linejoin="bevel"/>-->
+          <!--                <path-->
+          <!--                    d="M6 604.5V569.5L588 160L604.5 164.5L620.5 183C622.667 188.167 627.6 200.1 630 206.5C633 214.5 641 241 644 246C647 251 648 270.5 648 275C648 278.6 651 279.833 652.5 280C618.833 320 549.5 401.1 541.5 405.5L481 426.5L231.5 532.5L243 620L6 604.5Z"-->
+          <!--                    stroke="white" stroke-width="4" stroke-linejoin="bevel"/>-->
+          <!--                <path-->
+          <!--                    d="M6 504.5V469.5L588 60L604.5 64.5L620.5 83C622.667 88.1667 627.6 100.1 630 106.5C633 114.5 641 141 644 146C647 151 648 170.5 648 175C648 178.6 651 179.833 652.5 180C618.833 220 549.5 301.1 541.5 305.5L481 326.5L231.5 432.5L243 520L6 504.5Z"-->
+          <!--                    stroke="black" stroke-width="10" stroke-linejoin="bevel"/>-->
+          <!--                <circle cx="526" cy="101.5" r="15" fill="black"/>-->
+          <!--                <path-->
+          <!--                    d="M534.384 95.3079C534.275 95.2584 534.154 95.2413 534.036 95.2586C533.917 95.2759 533.806 95.3269 533.716 95.4056C531.528 97.2978 529.675 96.3806 527.527 95.3173C525.302 94.215 522.78 92.9673 519.966 95.4056C519.898 95.4639 519.844 95.5358 519.807 95.6167C519.77 95.6975 519.751 95.7854 519.75 95.8744V108.999C519.75 109.165 519.816 109.324 519.933 109.441C520.05 109.559 520.209 109.624 520.375 109.624C520.541 109.624 520.7 109.559 520.817 109.441C520.934 109.324 521 109.165 521 108.999V105.544C523.093 103.891 524.896 104.782 526.973 105.81C529.198 106.911 531.72 108.159 534.534 105.722C534.602 105.664 534.656 105.592 534.693 105.511C534.73 105.43 534.749 105.342 534.75 105.253V95.8744C534.75 95.7549 534.715 95.638 534.65 95.5376C534.585 95.4372 534.493 95.3575 534.384 95.3079ZM533.5 97.0931V100.581C532.406 101.445 531.391 101.614 530.375 101.431V97.6978C531.455 97.8666 532.561 97.6527 533.5 97.0931ZM529.125 97.3869V101.059C528.605 100.85 528.076 100.59 527.527 100.317C526.838 99.9767 526.121 99.622 525.375 99.3665V95.6947C525.895 95.9025 526.424 96.1634 526.973 96.4353C527.662 96.7767 528.38 97.1314 529.125 97.3869ZM524.125 95.3204V99.0533C523.045 98.8848 521.939 99.099 521 99.6587V96.1697C522.094 95.3056 523.109 95.1376 524.125 95.3204ZM523.389 103.374C522.548 103.376 521.723 103.603 521 104.033V101.17C522.094 100.306 523.109 100.137 524.125 100.32V103.429C523.881 103.393 523.635 103.375 523.389 103.374ZM525.375 103.739V100.692C525.895 100.9 526.424 101.161 526.973 101.433C527.662 101.774 528.379 102.128 529.125 102.384V105.431C528.605 105.222 528.076 104.962 527.527 104.69C526.838 104.349 526.12 103.995 525.375 103.739ZM530.375 105.806V102.696C530.619 102.733 530.865 102.751 531.111 102.752C531.952 102.75 532.777 102.521 533.5 102.091V104.956C532.406 105.82 531.391 105.988 530.375 105.806Z"-->
+          <!--                    fill="white"/>-->
+          <!--              </g>-->
+          <!--              <defs>-->
+          <!--                <clipPath id="clip0_228_50">-->
+          <!--                  <rect width="655" height="679" fill="white"/>-->
+          <!--                </clipPath>-->
+          <!--              </defs>-->
+          <!--            </svg>-->
 
-      <ContentQuery path="races" find="one" :where="{title: '2023'}">
-        <template #default="{ data }">
-          <div class="splide mx-auto">
-            <div class="splide__track">
-              <ul class="splide__list">
-                <li class="splide__slide" v-for="item in data.media">
-                  <nuxt-img format="webp" height="900" class="splide__slide object-contain w-full h-full" v-if="item.type === 'image'"
-                            :src="item.path"/>
-                  <div class="w-full h-full max-w-[1400px] mx-auto flex items-center" v-if="item.type === 'youtube'">
-                    <iframe v-if="youtubeConsentGiven" :src="`https://www.youtube-nocookie.com/embed/${item.videoId}`"
-                            class="w-full aspect-video"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen></iframe>
-                    <div class="w-full h-full flex justify-center items-center" v-if="!youtubeConsentGiven">
-                      <div class="text-center bg-race-green w-full py-32 px-16 max-w-3xl text-xl">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                             stroke="currentColor" class="w-16 h-16 mx-auto text-race-gray mb-4">
-                          <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
-                          <path stroke-linecap="round" stroke-linejoin="round"
-                                d="M15.91 11.672a.375.375 0 010 .656l-5.603 3.113a.375.375 0 01-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112z"/>
-                        </svg>
-                        <p>Um das YouTube-Video anzuschauen, braucht es deine Zustimmung.</p>
-                        <p class="mb-4">Bist du einverstanden, dass YouTube Cookies setzt und deine Daten an YouTube
-                          übertragen werden?</p>
-                        <button class="italic font-display px-4 py-2 border border-2 border-black hover:scale-105"
-                                @click.prevent="setYoutubeConsent">Lass sehen
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </template>
-        <template #not-found>
-          <p>No race found.</p>
-        </template>
-      </ContentQuery>
+          <!--            <svg v-if="lapCountSelected === 15" class="mx-auto max-w-[600px] pulse animated infinite"-->
+          <!--                 viewBox="0 0 655 679" fill="none" xmlns="http://www.w3.org/2000/svg">-->
+          <!--              <g clip-path="url(#clip0_228_51)">-->
+          <!--                <path-->
+          <!--                    d="M6 465.5V430.5L588.45 21L604.963 25.5L620.975 44C623.144 49.1667 628.081 61.1 630.483 67.5C633.485 75.5 641.491 102 644.493 107C647.496 112 648.497 131.5 648.497 136C648.497 139.6 651.499 140.833 653 141C619.307 181 549.92 262.1 541.914 266.5L481.367 287.5L231.674 393.5L243.183 481L6 465.5Z"-->
+          <!--                    stroke="white" stroke-width="4" stroke-linejoin="bevel"/>-->
+          <!--                <path-->
+          <!--                    d="M6 480.5V445.5L588.45 36L604.963 40.5L620.975 59C623.144 64.1667 628.081 76.1 630.483 82.5C633.485 90.5 641.491 117 644.493 122C647.496 127 648.497 146.5 648.497 151C648.497 154.6 651.499 155.833 653 156C619.307 196 549.92 277.1 541.914 281.5L481.367 302.5L231.674 408.5L243.183 496L6 480.5Z"-->
+          <!--                    stroke="white" stroke-width="4" stroke-linejoin="bevel"/>-->
+          <!--                <path-->
+          <!--                    d="M6 495.5V460.5L588.45 51L604.963 55.5L620.975 74C623.144 79.1667 628.081 91.1 630.483 97.5C633.485 105.5 641.491 132 644.493 137C647.496 142 648.497 161.5 648.497 166C648.497 169.6 651.499 170.833 653 171C619.307 211 549.92 292.1 541.914 296.5L481.367 317.5L231.674 423.5L243.183 511L6 495.5Z"-->
+          <!--                    stroke="white" stroke-width="4" stroke-linejoin="bevel"/>-->
+          <!--                <path-->
+          <!--                    d="M6 510.5V475.5L588.45 66L604.963 70.5L620.975 89C623.144 94.1667 628.081 106.1 630.483 112.5C633.485 120.5 641.491 147 644.493 152C647.496 157 648.497 176.5 648.497 181C648.497 184.6 651.499 185.833 653 186C619.307 226 549.92 307.1 541.914 311.5L481.367 332.5L231.674 438.5L243.183 526L6 510.5Z"-->
+          <!--                    stroke="white" stroke-width="4" stroke-linejoin="bevel"/>-->
+          <!--                <path-->
+          <!--                    d="M6 525.5V490.5L588.45 81L604.963 85.5L620.975 104C623.144 109.167 628.081 121.1 630.483 127.5C633.485 135.5 641.491 162 644.493 167C647.496 172 648.497 191.5 648.497 196C648.497 199.6 651.499 200.833 653 201C619.307 241 549.92 322.1 541.914 326.5L481.367 347.5L231.674 453.5L243.183 541L6 525.5Z"-->
+          <!--                    stroke="white" stroke-width="4" stroke-linejoin="bevel"/>-->
+          <!--                <path-->
+          <!--                    d="M6 540.5V505.5L588.45 96L604.963 100.5L620.975 119C623.144 124.167 628.081 136.1 630.483 142.5C633.485 150.5 641.491 177 644.493 182C647.496 187 648.497 206.5 648.497 211C648.497 214.6 651.499 215.833 653 216C619.307 256 549.92 337.1 541.914 341.5L481.367 362.5L231.674 468.5L243.183 556L6 540.5Z"-->
+          <!--                    stroke="white" stroke-width="4" stroke-linejoin="bevel"/>-->
+          <!--                <path-->
+          <!--                    d="M6 555.5V520.5L588.45 111L604.963 115.5L620.975 134C623.144 139.167 628.081 151.1 630.483 157.5C633.485 165.5 641.491 192 644.493 197C647.496 202 648.497 221.5 648.497 226C648.497 229.6 651.499 230.833 653 231C619.307 271 549.92 352.1 541.914 356.5L481.367 377.5L231.674 483.5L243.183 571L6 555.5Z"-->
+          <!--                    stroke="white" stroke-width="4" stroke-linejoin="bevel"/>-->
+          <!--                <path-->
+          <!--                    d="M6 570.5V535.5L588.45 126L604.963 130.5L620.975 149C623.144 154.167 628.081 166.1 630.483 172.5C633.485 180.5 641.491 207 644.493 212C647.496 217 648.497 236.5 648.497 241C648.497 244.6 651.499 245.833 653 246C619.307 286 549.92 367.1 541.914 371.5L481.367 392.5L231.674 498.5L243.183 586L6 570.5Z"-->
+          <!--                    stroke="white" stroke-width="4" stroke-linejoin="bevel"/>-->
+          <!--                <path-->
+          <!--                    d="M6 585.5V550.5L588.45 141L604.963 145.5L620.975 164C623.144 169.167 628.081 181.1 630.483 187.5C633.485 195.5 641.491 222 644.493 227C647.496 232 648.497 251.5 648.497 256C648.497 259.6 651.499 260.833 653 261C619.307 301 549.92 382.1 541.914 386.5L481.367 407.5L231.674 513.5L243.183 601L6 585.5Z"-->
+          <!--                    stroke="white" stroke-width="4" stroke-linejoin="bevel"/>-->
+          <!--                <path-->
+          <!--                    d="M6 600.5V565.5L588.45 156L604.963 160.5L620.975 179C623.144 184.167 628.081 196.1 630.483 202.5C633.485 210.5 641.491 237 644.493 242C647.496 247 648.497 266.5 648.497 271C648.497 274.6 651.499 275.833 653 276C619.307 316 549.92 397.1 541.914 401.5L481.367 422.5L231.674 528.5L243.183 616L6 600.5Z"-->
+          <!--                    stroke="white" stroke-width="4" stroke-linejoin="bevel"/>-->
+          <!--                <path-->
+          <!--                    d="M6 615.5V580.5L588.45 171L604.963 175.5L620.975 194C623.144 199.167 628.081 211.1 630.483 217.5C633.485 225.5 641.491 252 644.493 257C647.496 262 648.497 281.5 648.497 286C648.497 289.6 651.499 290.833 653 291C619.307 331 549.92 412.1 541.914 416.5L481.367 437.5L231.674 543.5L243.183 631L6 615.5Z"-->
+          <!--                    stroke="white" stroke-width="4" stroke-linejoin="bevel"/>-->
+          <!--                <path-->
+          <!--                    d="M6 630.5V595.5L588.45 186L604.963 190.5L620.975 209C623.144 214.167 628.081 226.1 630.483 232.5C633.485 240.5 641.491 267 644.493 272C647.496 277 648.497 296.5 648.497 301C648.497 304.6 651.499 305.833 653 306C619.307 346 549.92 427.1 541.914 431.5L481.367 452.5L231.674 558.5L243.183 646L6 630.5Z"-->
+          <!--                    stroke="white" stroke-width="4" stroke-linejoin="bevel"/>-->
+          <!--                <path-->
+          <!--                    d="M6 645.5V610.5L588.45 201L604.963 205.5L620.975 224C623.144 229.167 628.081 241.1 630.483 247.5C633.485 255.5 641.491 282 644.493 287C647.496 292 648.497 311.5 648.497 316C648.497 319.6 651.499 320.833 653 321C619.307 361 549.92 442.1 541.914 446.5L481.367 467.5L231.674 573.5L243.183 661L6 645.5Z"-->
+          <!--                    stroke="white" stroke-width="4" stroke-linejoin="bevel"/>-->
+          <!--                <path-->
+          <!--                    d="M6 660.5V625.5L588.45 216L604.963 220.5L620.975 239C623.144 244.167 628.081 256.1 630.483 262.5C633.485 270.5 641.491 297 644.493 302C647.496 307 648.497 326.5 648.497 331C648.497 334.6 651.499 335.833 653 336C619.307 376 549.92 457.1 541.914 461.5L481.367 482.5L231.674 588.5L243.183 676L6 660.5Z"-->
+          <!--                    stroke="white" stroke-width="4" stroke-linejoin="bevel"/>-->
+          <!--                <path-->
+          <!--                    d="M6 450.5V415.5L588.45 6L604.963 10.5L620.975 29C623.144 34.1667 628.081 46.1 630.483 52.5C633.485 60.5 641.491 87 644.493 92C647.496 97 648.497 116.5 648.497 121C648.497 124.6 651.499 125.833 653 126C619.307 166 549.92 247.1 541.914 251.5L481.367 272.5L231.674 378.5L243.183 466L6 450.5Z"-->
+          <!--                    stroke="black" stroke-width="10" stroke-linejoin="bevel"/>-->
+          <!--                <ellipse cx="526.402" cy="47.5" rx="15.0116" ry="15" fill="black"/>-->
+          <!--                <path-->
+          <!--                    d="M534.793 41.3079C534.684 41.2584 534.563 41.2413 534.444 41.2586C534.325 41.2759 534.214 41.3269 534.124 41.4056C531.934 43.2978 530.08 42.3806 527.931 41.3173C525.704 40.215 523.179 38.9673 520.363 41.4056C520.296 41.4639 520.242 41.5358 520.204 41.6167C520.167 41.6975 520.148 41.7854 520.147 41.8744V54.9994C520.147 55.1651 520.213 55.3241 520.33 55.4413C520.448 55.5585 520.607 55.6244 520.773 55.6244C520.939 55.6244 521.098 55.5585 521.215 55.4413C521.332 55.3241 521.398 55.1651 521.398 54.9994V51.5439C523.493 49.8908 525.297 50.7822 527.375 51.8103C529.603 52.9111 532.127 54.1587 534.943 51.722C535.01 51.6637 535.064 51.5918 535.102 51.5109C535.139 51.4301 535.158 51.3422 535.159 51.2533V41.8744C535.158 41.7549 535.124 41.638 535.059 41.5376C534.994 41.4372 534.902 41.3575 534.793 41.3079ZM533.908 43.0931V46.5814C532.813 47.4454 531.797 47.6142 530.78 47.4314V43.6978C531.862 43.8666 532.968 43.6527 533.908 43.0931ZM529.529 43.3869V47.0587C529.009 46.8501 528.479 46.59 527.931 46.3173C527.241 45.9767 526.523 45.622 525.777 45.3665V41.6947C526.297 41.9025 526.827 42.1634 527.375 42.4353C528.065 42.7767 528.784 43.1314 529.529 43.3869ZM524.526 41.3204V45.0533C523.444 44.8848 522.338 45.099 521.398 45.6587V42.1697C522.493 41.3056 523.509 41.1376 524.526 41.3204ZM523.789 49.3744C522.947 49.3758 522.122 49.6033 521.398 50.0329V47.1697C522.493 46.3056 523.509 46.1369 524.526 46.3197V49.429C524.282 49.3932 524.036 49.3749 523.789 49.3744ZM525.777 49.7392V46.6923C526.297 46.9001 526.827 47.1611 527.375 47.4329C528.065 47.7744 528.783 48.1283 529.529 48.3837V51.4306C529.009 51.222 528.479 50.9619 527.931 50.69C527.241 50.3486 526.522 49.9947 525.777 49.7392ZM530.78 51.8056V48.6962C531.024 48.7326 531.27 48.7514 531.517 48.7525C532.359 48.7499 533.185 48.5213 533.908 48.0908V50.9564C532.813 51.8204 531.797 51.9884 530.78 51.8056Z"-->
+          <!--                    fill="white"/>-->
+          <!--              </g>-->
+          <!--              <defs>-->
+          <!--                <clipPath id="clip0_228_51">-->
+          <!--                  <rect width="655" height="679" fill="white"/>-->
+          <!--                </clipPath>-->
+          <!--              </defs>-->
+          <!--            </svg>-->
 
-    </section>
+          <!--          </div>-->
+          <!--        </div>-->
+        </div>
+      </section>
 
-    <section class="py-24">
-      <div class="relative mb-12 md:mb-24 overflow-x-hidden lg:flex lg:justify-center">
-        <svg class="w-[240%] -ml-[60%] sm:w-[180%] sm:-ml-[40%] lg:w-full lg:ml-0 max-w-[2000px]" viewBox="0 0 1721 445"
-             xmlns="http://www.w3.org/2000/svg">
-          <path
-              d="M1171.27 235.065L1180.48 225.232C1185.17 220.22 1193.41 221.322 1196.62 227.392L1198.91 231.728C1200.23 234.214 1199.99 237.234 1198.32 239.49C1196.3 242.202 1196.41 245.943 1198.58 248.531L1208.34 260.163C1209.41 261.44 1210 263.053 1210 264.72V274.11C1210 276.042 1207.8 277.151 1206.25 276.002C1204.35 274.599 1201.8 276.552 1202.66 278.751L1207.79 291.901C1208.33 293.277 1208.38 294.796 1207.93 296.202L1202.15 314.209C1201.5 316.225 1202.24 318.429 1203.97 319.65C1206.16 321.196 1206.68 324.225 1205.13 326.413L1202.17 330.597C1199.5 334.357 1199.76 339.453 1202.8 342.921L1204.66 345.042C1206.72 347.404 1207.56 350.599 1206.92 353.671L1205.89 358.606C1205.43 360.782 1204.27 362.746 1202.57 364.185L1195.9 369.853C1193.56 371.836 1190.35 372.429 1187.46 371.409C1182.61 369.699 1177.36 372.583 1176.2 377.588L1174.12 386.591C1173.79 388.001 1172.54 389 1171.09 389C1168.94 389 1167.44 386.875 1168.16 384.851L1170 379.655C1171.62 375.08 1167.8 370.42 1162.99 371.112C1160.62 371.455 1158.24 370.448 1156.84 368.499L1155.6 366.78C1154.38 365.095 1152.34 364.217 1150.28 364.493C1144.87 365.221 1141.69 358.584 1145.66 354.825L1154.33 346.617C1155.19 345.793 1155.69 344.648 1155.69 343.45C1155.69 341.041 1153.7 339.088 1151.29 339.088C1146.97 339.088 1145 333.604 1148.43 330.983L1157.64 323.96C1160.76 321.576 1161.42 317.139 1159.12 313.952L1158.76 313.455C1158.1 312.543 1157.75 311.447 1157.75 310.322V308.72C1157.75 306.148 1155.39 304.226 1152.87 304.752C1148.79 305.602 1146.24 300.488 1149.36 297.738L1161.36 287.191C1163.13 285.635 1163.22 282.911 1161.57 281.238C1160.16 279.818 1159.98 277.588 1161.15 275.965L1162.29 274.395C1163.72 272.412 1163.89 269.785 1162.72 267.634L1162.68 267.557C1161.37 265.139 1161.72 262.16 1163.56 260.112L1175.4 246.896C1177.28 244.799 1176.09 241.453 1173.31 241.01C1170.49 240.561 1169.32 237.147 1171.27 235.065Z"
-              fill="#22CD67"/>
-          <path
-              d="M888.757 34.989C879.412 24.2848 866.573 9.72368 860.497 3.28865C858.426 1.09606 855.973 1.36086 854.075 3.70366L841.497 19.2226C840.666 20.2481 839.64 21.099 838.478 21.726L825.069 28.9649C823.966 29.5601 822.985 30.3572 822.177 31.3147L799.047 58.7197C797.036 61.102 798.009 64.7585 800.938 65.8262C804.37 67.0775 804.947 71.688 801.928 73.7459L786.029 84.5844C782.08 87.2768 782.734 93.2866 787.171 95.0657C791.306 96.7242 792.237 102.163 788.887 105.102L781.224 111.824C778.439 114.267 778.944 118.738 782.204 120.498C786.191 122.65 785.831 128.483 781.61 130.128L780.297 130.64C775.798 132.394 775.375 138.595 779.593 140.945C780.295 141.335 780.906 141.87 781.387 142.512L792.816 157.79C794.916 160.597 798.333 162.1 801.821 161.75L805.582 161.373C807.89 161.141 810.207 161.72 812.136 163.009L823.499 170.603C826.619 172.688 830.643 172.852 833.921 171.026L837.969 168.771C839.457 167.942 841.132 167.507 842.835 167.507H870.803C874.536 167.507 877.44 164.263 877.029 160.553C876.719 157.756 878.312 155.096 880.924 154.049L883.493 153.019C889.676 150.539 891.697 142.786 887.457 137.647C880.597 129.332 873.331 120.761 872.619 120.761H885.819C893.904 120.761 898.649 111.665 894.02 105.036L892.291 102.56C889.285 98.2542 890.301 92.3319 894.57 89.2747L894.957 88.998C899.971 85.4069 900.122 78.0028 895.258 74.21L886.481 67.3657C884.428 65.7655 884.984 62.5245 887.453 61.6997C889.945 60.8667 890.48 57.5785 888.379 55.999L886.74 54.767C884.715 53.2441 884.42 50.317 886.101 48.4209L888.707 45.4821C891.359 42.4909 891.386 38.0005 888.757 34.989Z"
-              fill="#00CABF"/>
-          <path
-              d="M562.021 297.939L542.973 277.793C539.358 273.97 533.398 273.602 529.34 276.951L504.167 297.731C500.382 300.856 499.454 306.317 501.936 310.551C503.396 313.043 503.724 316.071 502.807 318.81L501.082 323.959C500.665 325.206 500.006 326.358 499.142 327.35L492.372 335.126C489.912 337.952 489.871 342.148 492.276 345.021C495.141 348.443 494.466 353.583 490.814 356.148L486.72 359.025C483.511 361.28 481.916 365.203 482.642 369.058L483.643 374.371C484.068 376.627 483.704 378.961 482.612 380.98L475.096 394.874C472.833 399.058 474.385 404.284 478.565 406.553C480.423 407.562 482.587 407.853 484.646 407.371L492.501 405.531C495.391 404.854 498.321 406.489 499.263 409.303C499.985 411.458 501.909 412.986 504.172 413.201L511.344 413.881C516.478 414.367 520.4 418.679 520.4 423.836V434.222C520.4 439.609 525.574 443.485 530.744 441.972C534.185 440.964 536.55 437.808 536.55 434.222V425.381C536.55 419.614 541.415 415.042 547.171 415.4L563.531 416.418C565.747 416.556 567.946 415.952 569.781 414.702L576.53 410.106C581.174 406.943 582.301 400.576 579.025 396.011L575.337 390.871C572.646 387.12 572.872 382.014 575.884 378.516L576.892 377.346C579.961 373.781 580.131 368.56 577.301 364.803L572.767 358.785C571.611 357.251 571.764 355.1 573.125 353.745C574.486 352.39 574.639 350.238 573.483 348.704L570.333 344.523C568.299 341.823 568.158 338.144 569.978 335.296C572.078 332.012 571.537 327.698 568.693 325.033L563.014 319.713C559.892 316.788 559.598 311.934 562.344 308.654C564.97 305.517 564.831 300.911 562.021 297.939Z"
-              fill="#684A42"/>
-          <defs>
-            <path id="text"
-                  d="M1 324C254.75 113.001 446.827 187.021 753.204 266.636C1094.89 355.426 1273.27 37.6804 1727 153.905"
-                  stroke="black"/>
-          </defs>
-          <text>
-            <textPath font-family="Gobold" font-size="92" href="#text">
-              FAQ FAQ FAQ FAQ FAQ FAQ FAQ FAQ FAQ FAQ FAQ FAQ FAQ FAQ FAQ FAQ
-            </textPath>
-          </text>
-        </svg>
-
-      </div>
-      <div class="container mx-auto px-4 max-w-4xl space-y-2">
+      <section class="bg-race-blue flex flex-wrap flex-col-reverse md:flex-col">
         <ContentQuery path="races" find="one" :where="{title: '2023'}">
           <template #default="{ data }">
-            <details v-for="faq in data.faqs" class="relative">
-              <summary
-                  class="border-b-4 font-display border-b-black text-2xl sm:text-3xl md:text-4xl cursor-pointer py-4 pr-2">
-                {{ faq.question }}
-              </summary>
-              <p class="text-xl font-sans mt-4 leading-normal" v-html="faq.answer"></p>
-            </details>
+            <div
+                class="container mx-auto grid grid-cols-1 gap-16 sm:grid-cols-2 xl:grid-cols-4 sm:gap-8 justify-center font-display py-12">
+              <dl class="text-center">
+                <dt class="font-bold mb-4 italic text-2xl">Datum</dt>
+                <dd class="text-3xl md:text-4xl whitespace-nowrap">
+                  {{ data.tracks[0].date }}
+                </dd>
+              </dl>
+              <dl class="text-center">
+                <dt class="font-bold mb-4 italic text-2xl">Start/Ziel</dt>
+                <dd class="text-3xl md:text-4xl whitespace-nowrap">{{ data.tracks[0].startLocation }}</dd>
+              </dl>
+              <dl class="text-center">
+                <dt class="font-bold mb-4 italic text-2xl">Startschuss</dt>
+                <dd class="text-3xl md:text-4xl whitespace-nowrap">{{ data.tracks[0].startTime }}</dd>
+              </dl>
+              <dl class="text-center">
+                <dt class="font-bold mb-4 italic text-2xl">Siegerehrung</dt>
+                <dd class="text-3xl md:text-4xl whitespace-nowrap">{{ data.tracks[0].awardCeremonyTime }}</dd>
+              </dl>
+            </div>
           </template>
           <template #not-found>
             <p>No race found.</p>
           </template>
         </ContentQuery>
-      </div>
-    </section>
 
-  </main>
+        <img
+            class="md:hidden"
+            sizes="(max-width: 960px) 100vw, 960px"
+            srcset="
+/assets/viktor-bystrov-ztryiOSM0cg-unsplash_3_u06sgl_c_scalew_190.jpeg 190w,
+/assets/viktor-bystrov-ztryiOSM0cg-unsplash_3_u06sgl_c_scalew_662.jpeg 662w,
+/assets/viktor-bystrov-ztryiOSM0cg-unsplash_3_u06sgl_c_scalew_960.jpeg 960w"
+            src="/assets/viktor-bystrov-ztryiOSM0cg-unsplash_3_u06sgl_c_scalew_960.jpeg"
+            alt="Gravel-Bike-Fahrer auf Sandweg im Wald">
+        <img
+            class="hidden md:block"
+            sizes="(max-width: 2600px) 100vw, 2600px"
+            srcset="
+/assets/viktor-bystrov-ztryiOSM0cg-unsplash_7_rnkerl_c_scalew_960.jpeg 960w,
+/assets/viktor-bystrov-ztryiOSM0cg-unsplash_7_rnkerl_c_scalew_1910.jpeg 1910w,
+/assets/viktor-bystrov-ztryiOSM0cg-unsplash_7_rnkerl_c_scalew_2600.jpeg 2600w"
+            src="/assets/viktor-bystrov-ztryiOSM0cg-unsplash_7_rnkerl_c_scalew_2600.jpeg"
+            alt="Gravel-Bike-Fahrer auf Sandweg im Wald">
 
-  <footer class="py-16 bg-race-blue overflow-hidden">
-    <ul class="flex justify-center space-x-4 font-display text-xl text-race-gray mb-16">
-      <li><a class="hover:text-pink-400" href="/impressum">Impressum</a></li>
-      <li><a class="hover:text-pink-400" href="/datenschutz">Datenschutz</a></li>
-    </ul>
+      </section>
 
-    <div class="flex flex-wrap text-race-gray justify-center">
-      <p class="w-full text-center">Made by</p>
-      <a href="https://webhub.de" class="hover:text-pink-400" target="_blank">
-        <svg class="fill-current" width="140" height="29" viewBox="0 0 140 29" xmlns="http://www.w3.org/2000/svg">
-          <path
-              d="M5.28979 28.5259L0 8.33651H4.19953L6.82424 18.7275C7.01268 19.5177 7.14728 20.1762 7.22804 20.703C7.38956 19.7548 7.5107 19.0831 7.59146 18.688L10.0546 9.37624H13.6081L16.0713 18.7275C16.2059 19.149 16.3405 19.8206 16.4751 20.7425C16.5558 20.1894 16.6904 19.5177 16.8789 18.7275L19.4228 8.33651H23.6627L18.3326 28.5259H14.7791L12.3967 18.4114C12.2352 17.7793 12.0467 16.8574 11.8314 15.6458C11.7775 15.9882 11.6564 16.5282 11.4679 17.2657C11.3064 17.9768 11.2122 18.3588 11.1853 18.4114L8.924 28.5259H5.28979Z"></path>
-          <path
-              d="M44.9112 17.4237C44.9112 18.5827 44.8573 19.5045 44.7497 20.1894H30.6974C30.9935 21.6644 31.5858 22.8365 32.4741 23.7057C33.3894 24.5486 34.5604 24.97 35.9872 24.97C37.7908 24.97 39.3118 24.3115 40.5501 22.9946L43.3364 25.8787C41.3981 27.9596 38.9349 29 35.9468 29C32.9048 29 30.4955 28.0386 28.7188 26.1158C26.969 24.193 26.0941 21.6249 26.0941 18.4114C26.0941 15.1453 26.9824 12.5772 28.7591 10.7071C30.5359 8.81063 32.9318 7.8624 35.9468 7.8624C38.585 7.8624 40.7386 8.67893 42.4076 10.312C44.0767 11.9187 44.9112 14.2893 44.9112 17.4237ZM30.657 16.3174H40.3482C40.2136 14.8424 39.7291 13.7361 38.8946 12.9986C38.0869 12.2348 37.1044 11.8529 35.9468 11.8529C34.4662 11.8529 33.2683 12.248 32.353 13.0381C31.4646 13.8283 30.8993 14.9214 30.657 16.3174Z"></path>
-          <path
-              d="M60.1834 29C57.9221 29 56.1723 28.3283 54.934 26.985V28.5259H50.2903V2.09401L54.934 0V9.91689C55.4993 9.31108 56.2665 8.8238 57.2356 8.45504C58.2317 8.05995 59.2412 7.8624 60.2641 7.8624C62.8485 7.8624 64.9482 8.81063 66.5634 10.7071C68.1786 12.6035 68.9862 15.1717 68.9862 18.4114C68.9862 21.7829 68.2056 24.3906 66.6442 26.2343C65.0828 28.0781 62.9292 29 60.1834 29ZM59.4565 24.654C61.0448 24.654 62.2428 24.114 63.0504 23.0341C63.8849 21.9278 64.3022 20.3869 64.3022 18.4114C64.3022 16.3833 63.8849 14.8424 63.0504 13.7888C62.2428 12.7089 61.0448 12.1689 59.4565 12.1689C58.4336 12.1689 57.5183 12.3797 56.7107 12.8011C55.93 13.1962 55.3378 13.6571 54.934 14.1839V22.6785C55.93 23.9955 57.4375 24.654 59.4565 24.654Z"></path>
-          <path
-              d="M73.8 28.5259V2.09401L78.4437 0V10.312C79.7897 8.67893 81.7414 7.8624 84.2988 7.8624C86.5601 7.8624 88.3907 8.53406 89.7905 9.87739C91.2173 11.1944 91.9307 13.3015 91.9307 16.1989V28.5259H87.2869V17.1471C87.2869 15.4087 86.8831 14.1444 86.0755 13.3542C85.2949 12.564 84.2719 12.1689 83.0067 12.1689C81.6607 12.1689 80.5569 12.5509 79.6955 13.3147C78.861 14.0786 78.4437 15.3297 78.4437 17.0681V28.5259H73.8Z"></path>
-          <path
-              d="M105.143 29C102.855 29 100.998 28.3415 99.571 27.0245C98.1712 25.6812 97.4712 23.5477 97.4712 20.624V8.33651H102.115V19.6362C102.115 22.9814 103.528 24.654 106.355 24.654C109.397 24.654 110.918 23.0077 110.918 19.7153V8.33651H115.562V28.5259H110.918V26.5899C109.599 28.1966 107.674 29 105.143 29Z"></path>
-          <path
-              d="M131.197 29C128.936 29 127.186 28.3283 125.948 26.985V28.5259H121.304V2.09401L125.948 0V9.91689C126.513 9.31108 127.28 8.8238 128.249 8.45504C129.245 8.05995 130.255 7.8624 131.278 7.8624C133.862 7.8624 135.962 8.81063 137.577 10.7071C139.192 12.6035 140 15.1717 140 18.4114C140 21.7829 139.219 24.3906 137.658 26.2343C136.097 28.0781 133.943 29 131.197 29ZM130.47 24.654C132.059 24.654 133.257 24.114 134.064 23.0341C134.899 21.9278 135.316 20.3869 135.316 18.4114C135.316 16.3833 134.899 14.8424 134.064 13.7888C133.257 12.7089 132.059 12.1689 130.47 12.1689C129.447 12.1689 128.532 12.3797 127.724 12.8011C126.944 13.1962 126.352 13.6571 125.948 14.1839V22.6785C126.944 23.9955 128.451 24.654 130.47 24.654Z"></path>
-        </svg>
-      </a>
-      <p class="w-full text-6xl sm:text-8xl rotate-[4deg] font-display text-center mt-16 mb-6 text-[#00b5ac]">lass <br>graveln!
-      </p>
-    </div>
+      <section class="py-16 md:py-24">
+        <h2 class="font-display text-center text-race-gray antialiased text-5xl md:text-7xl leading-tight mb-4 md:mb-16">
+          media</h2>
 
-  </footer>
+        <ContentQuery path="races" find="one" :where="{title: '2023'}">
+          <template #default="{ data }">
+            <div class="splide mx-auto">
+              <div class="splide__track">
+                <ul class="splide__list">
+                  <li class="splide__slide" v-for="item in data.media">
+                    <nuxt-img format="webp" height="900" class="splide__slide object-contain w-full h-full" v-if="item.type === 'image'"
+                              :src="item.path"/>
+                    <div class="w-full h-full max-w-[1400px] mx-auto flex items-center" v-if="item.type === 'youtube'">
+                      <iframe v-if="youtubeConsentGiven" :src="`https://www.youtube-nocookie.com/embed/${item.videoId}`"
+                              class="w-full aspect-video"
+                              title="YouTube video player" frameborder="0"
+                              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                              allowfullscreen></iframe>
+                      <div class="w-full h-full flex justify-center items-center" v-if="!youtubeConsentGiven">
+                        <div class="text-center bg-race-green w-full py-32 px-16 max-w-3xl text-xl">
+                          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                               stroke="currentColor" class="w-16 h-16 mx-auto text-race-gray mb-4">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                  d="M15.91 11.672a.375.375 0 010 .656l-5.603 3.113a.375.375 0 01-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112z"/>
+                          </svg>
+                          <p>Um das YouTube-Video anzuschauen, braucht es deine Zustimmung.</p>
+                          <p class="mb-4">Bist du einverstanden, dass YouTube Cookies setzt und deine Daten an YouTube
+                            übertragen werden?</p>
+                          <button class="italic font-display px-4 py-2 border border-2 border-black hover:scale-105"
+                                  @click.prevent="setYoutubeConsent">Lass sehen
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </template>
+          <template #not-found>
+            <p>No race found.</p>
+          </template>
+        </ContentQuery>
 
+      </section>
+
+      <section class="py-24">
+        <div class="relative mb-12 md:mb-24 overflow-x-hidden lg:flex lg:justify-center">
+          <svg class="w-[240%] -ml-[60%] sm:w-[180%] sm:-ml-[40%] lg:w-full lg:ml-0 max-w-[2000px]" viewBox="0 0 1721 445"
+               xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M1171.27 235.065L1180.48 225.232C1185.17 220.22 1193.41 221.322 1196.62 227.392L1198.91 231.728C1200.23 234.214 1199.99 237.234 1198.32 239.49C1196.3 242.202 1196.41 245.943 1198.58 248.531L1208.34 260.163C1209.41 261.44 1210 263.053 1210 264.72V274.11C1210 276.042 1207.8 277.151 1206.25 276.002C1204.35 274.599 1201.8 276.552 1202.66 278.751L1207.79 291.901C1208.33 293.277 1208.38 294.796 1207.93 296.202L1202.15 314.209C1201.5 316.225 1202.24 318.429 1203.97 319.65C1206.16 321.196 1206.68 324.225 1205.13 326.413L1202.17 330.597C1199.5 334.357 1199.76 339.453 1202.8 342.921L1204.66 345.042C1206.72 347.404 1207.56 350.599 1206.92 353.671L1205.89 358.606C1205.43 360.782 1204.27 362.746 1202.57 364.185L1195.9 369.853C1193.56 371.836 1190.35 372.429 1187.46 371.409C1182.61 369.699 1177.36 372.583 1176.2 377.588L1174.12 386.591C1173.79 388.001 1172.54 389 1171.09 389C1168.94 389 1167.44 386.875 1168.16 384.851L1170 379.655C1171.62 375.08 1167.8 370.42 1162.99 371.112C1160.62 371.455 1158.24 370.448 1156.84 368.499L1155.6 366.78C1154.38 365.095 1152.34 364.217 1150.28 364.493C1144.87 365.221 1141.69 358.584 1145.66 354.825L1154.33 346.617C1155.19 345.793 1155.69 344.648 1155.69 343.45C1155.69 341.041 1153.7 339.088 1151.29 339.088C1146.97 339.088 1145 333.604 1148.43 330.983L1157.64 323.96C1160.76 321.576 1161.42 317.139 1159.12 313.952L1158.76 313.455C1158.1 312.543 1157.75 311.447 1157.75 310.322V308.72C1157.75 306.148 1155.39 304.226 1152.87 304.752C1148.79 305.602 1146.24 300.488 1149.36 297.738L1161.36 287.191C1163.13 285.635 1163.22 282.911 1161.57 281.238C1160.16 279.818 1159.98 277.588 1161.15 275.965L1162.29 274.395C1163.72 272.412 1163.89 269.785 1162.72 267.634L1162.68 267.557C1161.37 265.139 1161.72 262.16 1163.56 260.112L1175.4 246.896C1177.28 244.799 1176.09 241.453 1173.31 241.01C1170.49 240.561 1169.32 237.147 1171.27 235.065Z"
+                fill="#22CD67"/>
+            <path
+                d="M888.757 34.989C879.412 24.2848 866.573 9.72368 860.497 3.28865C858.426 1.09606 855.973 1.36086 854.075 3.70366L841.497 19.2226C840.666 20.2481 839.64 21.099 838.478 21.726L825.069 28.9649C823.966 29.5601 822.985 30.3572 822.177 31.3147L799.047 58.7197C797.036 61.102 798.009 64.7585 800.938 65.8262C804.37 67.0775 804.947 71.688 801.928 73.7459L786.029 84.5844C782.08 87.2768 782.734 93.2866 787.171 95.0657C791.306 96.7242 792.237 102.163 788.887 105.102L781.224 111.824C778.439 114.267 778.944 118.738 782.204 120.498C786.191 122.65 785.831 128.483 781.61 130.128L780.297 130.64C775.798 132.394 775.375 138.595 779.593 140.945C780.295 141.335 780.906 141.87 781.387 142.512L792.816 157.79C794.916 160.597 798.333 162.1 801.821 161.75L805.582 161.373C807.89 161.141 810.207 161.72 812.136 163.009L823.499 170.603C826.619 172.688 830.643 172.852 833.921 171.026L837.969 168.771C839.457 167.942 841.132 167.507 842.835 167.507H870.803C874.536 167.507 877.44 164.263 877.029 160.553C876.719 157.756 878.312 155.096 880.924 154.049L883.493 153.019C889.676 150.539 891.697 142.786 887.457 137.647C880.597 129.332 873.331 120.761 872.619 120.761H885.819C893.904 120.761 898.649 111.665 894.02 105.036L892.291 102.56C889.285 98.2542 890.301 92.3319 894.57 89.2747L894.957 88.998C899.971 85.4069 900.122 78.0028 895.258 74.21L886.481 67.3657C884.428 65.7655 884.984 62.5245 887.453 61.6997C889.945 60.8667 890.48 57.5785 888.379 55.999L886.74 54.767C884.715 53.2441 884.42 50.317 886.101 48.4209L888.707 45.4821C891.359 42.4909 891.386 38.0005 888.757 34.989Z"
+                fill="#00CABF"/>
+            <path
+                d="M562.021 297.939L542.973 277.793C539.358 273.97 533.398 273.602 529.34 276.951L504.167 297.731C500.382 300.856 499.454 306.317 501.936 310.551C503.396 313.043 503.724 316.071 502.807 318.81L501.082 323.959C500.665 325.206 500.006 326.358 499.142 327.35L492.372 335.126C489.912 337.952 489.871 342.148 492.276 345.021C495.141 348.443 494.466 353.583 490.814 356.148L486.72 359.025C483.511 361.28 481.916 365.203 482.642 369.058L483.643 374.371C484.068 376.627 483.704 378.961 482.612 380.98L475.096 394.874C472.833 399.058 474.385 404.284 478.565 406.553C480.423 407.562 482.587 407.853 484.646 407.371L492.501 405.531C495.391 404.854 498.321 406.489 499.263 409.303C499.985 411.458 501.909 412.986 504.172 413.201L511.344 413.881C516.478 414.367 520.4 418.679 520.4 423.836V434.222C520.4 439.609 525.574 443.485 530.744 441.972C534.185 440.964 536.55 437.808 536.55 434.222V425.381C536.55 419.614 541.415 415.042 547.171 415.4L563.531 416.418C565.747 416.556 567.946 415.952 569.781 414.702L576.53 410.106C581.174 406.943 582.301 400.576 579.025 396.011L575.337 390.871C572.646 387.12 572.872 382.014 575.884 378.516L576.892 377.346C579.961 373.781 580.131 368.56 577.301 364.803L572.767 358.785C571.611 357.251 571.764 355.1 573.125 353.745C574.486 352.39 574.639 350.238 573.483 348.704L570.333 344.523C568.299 341.823 568.158 338.144 569.978 335.296C572.078 332.012 571.537 327.698 568.693 325.033L563.014 319.713C559.892 316.788 559.598 311.934 562.344 308.654C564.97 305.517 564.831 300.911 562.021 297.939Z"
+                fill="#684A42"/>
+            <defs>
+              <path id="text"
+                    d="M1 324C254.75 113.001 446.827 187.021 753.204 266.636C1094.89 355.426 1273.27 37.6804 1727 153.905"
+                    stroke="black"/>
+            </defs>
+            <text>
+              <textPath font-family="Gobold" font-size="92" href="#text">
+                FAQ FAQ FAQ FAQ FAQ FAQ FAQ FAQ FAQ FAQ FAQ FAQ FAQ FAQ FAQ FAQ
+              </textPath>
+            </text>
+          </svg>
+
+        </div>
+        <div class="container mx-auto px-4 max-w-4xl space-y-2">
+          <ContentQuery path="races" find="one" :where="{title: '2023'}">
+            <template #default="{ data }">
+              <details v-for="faq in data.faqs" class="relative">
+                <summary
+                    class="border-b-4 font-display border-b-black text-2xl sm:text-3xl md:text-4xl cursor-pointer py-4 pr-2">
+                  {{ faq.question }}
+                </summary>
+                <p class="text-xl font-sans mt-4 leading-normal" v-html="faq.answer"></p>
+              </details>
+            </template>
+            <template #not-found>
+              <p>No race found.</p>
+            </template>
+          </ContentQuery>
+        </div>
+      </section>
+
+    </main>
 </template>
 
 <script setup>
